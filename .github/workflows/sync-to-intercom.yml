@@ -1,0 +1,34 @@
+name: Sync articles to Intercom
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**/*.md'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: Sync changed articles to Intercom
+        env:
+          INTERCOM_API_KEY: ${{ secrets.INTERCOM_API_KEY }}
+        run: |
+          # On push: sync only changed articles
+          # On manual dispatch: sync all
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/sync.py
+          else
+            git diff --name-only HEAD~1 HEAD -- 'articles/**/*.md' | while read f; do
+              [ -f "$f" ] && python scripts/sync.py --file "$f"
+            done
+          fi

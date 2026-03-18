@@ -1,0 +1,44 @@
+name: AI doc updater
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to process'
+        required: true
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DOCS_BOT_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests anthropic
+
+      - name: Generate doc updates from PR
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APP_REPO: namlisa/namlisa_app
+          PR_NUMBER: ${{ inputs.pr_number }}
+          GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
+        run: python scripts/ai_doc_updater.py
+
+      - name: Commit and push if changes
+        run: |
+          git config user.name "docs-bot"
+          git config user.email "docs-bot@fundgen.ai"
+          git checkout -b "doc-update/pr-${{ inputs.pr_number }}" 2>/dev/null || true
+          git add articles/
+          git diff --staged --quiet || git commit -m "docs: update from app PR #${{ inputs.pr_number }}"
+          git push origin HEAD --force
+          gh pr create --title "docs: update from app PR #${{ inputs.pr_number }}" \
+            --body "Auto-generated doc updates based on [app PR #${{ inputs.pr_number }}](https://github.com/namlisa/namlisa_app/pull/${{ inputs.pr_number }})." \
+            --base main 2>/dev/null || echo "PR already exists"
+        env:
+          GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
