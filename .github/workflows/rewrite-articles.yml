@@ -1,0 +1,69 @@
+name: Rewrite articles with Gemini
+
+# One-time bulk rewrite workflow. Run manually, review the PR, then delete this workflow.
+on:
+  workflow_dispatch:
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DOCS_BOT_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install google-generativeai
+
+      - name: Rewrite all articles
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/rewrite_articles.py
+
+      - name: Commit and open PR
+        run: |
+          git config user.name "docs-bot"
+          git config user.email "docs-bot@fundgen.ai"
+          git checkout -b "docs/bulk-terminology-update"
+          git add articles/
+          git diff --staged --quiet && echo "No changes — nothing to commit." && exit 0
+          git commit -m "docs: bulk terminology + content update via Gemini
+
+          - Global Leads → Potential Donors
+          - Spoke → Contacted / No Answer → No reply to contact
+          - Conversation Script → Call Scripts
+          - Smart Message Templates → Message Templates
+          - Updated scheduled message types (now 10 types)
+          - Fixed copy-paste errors, broken links, branding"
+          git push origin docs/bulk-terminology-update
+          gh pr create \
+            --title "docs: bulk terminology and content update" \
+            --body "$(cat <<'EOF'
+          ## Summary
+          - Bulk rewrite of all 33 help center articles using Gemini 2.5 Flash
+          - Fixes terminology mismatches between articles and current app (Global Leads → Potential Donors, Spoke → Contacted, etc.)
+          - Updates scheduled messages article to cover all 10 current message types
+          - Fixes copy-paste errors, broken GitHub links, branding (FundGen Ambassador App)
+
+          ## Key terminology changes
+          | Old | New |
+          |-----|-----|
+          | Global Leads / לידים גלובליים | Potential Donors / תורמים פוטנציאליים |
+          | Spoke / דיברתי | Contacted / יצרתי קשר |
+          | No Answer / לא ענה | No reply to contact / לא ענה לפנייה |
+          | Conversation Script | Call Scripts |
+          | Smart Message Templates | Message Templates |
+
+          ## After merge
+          The existing `sync-to-intercom.yml` workflow will auto-publish all updated articles to Intercom.
+
+          ## Cleanup
+          Delete `.github/workflows/rewrite-articles.yml` after this PR merges — it's a one-time script.
+          EOF
+          )" \
+            --base main
+        env:
+          GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
