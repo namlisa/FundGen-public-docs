@@ -19,11 +19,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install requests anthropic
+      - run: pip install requests google-generativeai
 
       - name: Generate doc updates from PR
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           APP_REPO: namlisa/namlisa_app
           PR_NUMBER: ${{ inputs.pr_number }}
           GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
