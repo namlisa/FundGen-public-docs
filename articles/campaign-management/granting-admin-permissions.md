@@ -10,48 +10,28 @@ collection_he: "ניהול הקמפיין"
 # Granting Admin Permissions
 
 ## Who is this guide for?
-- 
 
-Campaign Managers
-- 
-
-Strategy Team
-- 
-
-Select Key Ambassadors
+- Campaign Managers
+- Strategy Team
+- Select Key Ambassadors
 
 ## Prerequisites
-- 
 
-You must be logged in as a user with **Admin Permissions**.
-- 
-
-The user receiving the permission must already exist in the system (meaning, they have taken a goal in the campaign).
+- You must be logged in as a user with **Admin Permissions**.
+- The user receiving the permission must already exist in the system (meaning, they have taken a goal in the campaign).
 
 ## Steps to Grant Admin Permissions
-1. 
 
-**Log in to the Admin Interface** (via computer/mobile) – [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
-1. 
-
-In the main toolbar, select the **Contacts** menu.
-1. 
-
-From the menu, enter the **Manage Ambassadors** tab.
-1. 
-
-After entering the tab, scroll down slightly on the page that opens.
-1. 
-
-The page will display the list of campaign ambassadors, including all participants who have taken a campaign goal.
+1. **Log in to the Admin Interface** (via computer/mobile) – [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
+2. In the main toolbar, select the **Contacts** menu.
+3. From the menu, enter the **Manage Ambassadors** tab.
+4. After entering the tab, scroll down slightly on the page that opens.
+5. The page will display the list of campaign ambassadors, including all participants who have taken a campaign goal.
 
 **To the left of each ambassador, three icons appear:**
-- 
 
-Clicking on the **figure icon with a plus sign (+)** grants the ambassador admin permissions.
-- 
-
-Once the button turns **green** after clicking, it means the action has been successfully completed.
+- Clicking on the **figure icon with a plus sign (+)** grants the ambassador admin permissions.
+- Once the button turns **green** after clicking, it means the action has been successfully completed.
 
 ---
 

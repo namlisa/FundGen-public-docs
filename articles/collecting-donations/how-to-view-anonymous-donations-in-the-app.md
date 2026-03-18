@@ -16,29 +16,17 @@ collection_he: "איסוף תרומות"
 **How to View the Details?**
 
 To view the list of donations and names, follow these steps:
-1. 
 
-Enter the app.
-1. 
-
-Go to the bottom bar (the menu at the bottom of the screen).
-1. 
-
-Select the **"Donations"** button – to view all campaign donations.
-1. 
-
-Click on the **"My Goal"** tab.
-1. 
-
-In the list that opens, you will be able to see all donations that came in through you.
+1. Enter the app.
+2. Go to the bottom bar (the menu at the bottom of the screen).
+3. Select the **"Donations"** button – to view all campaign donations.
+4. Click on the **"My Goal"** tab.
+5. In the list that opens, you will be able to see all donations that came in through you.
 
 **What will you see?** For each donation (including anonymous ones), you will be able to see:
-- 
 
-The donation amount.
-- 
-
-The donor's name.
+- The donation amount.
+- The donor's name.
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2057038377/4a798794642394a22add65d4d8dc/Screenshot-2B2026-02-11-2Bat-2B22_57_46.png?expires=1773837900&signature=724e2aee222475b57535859df225b8d47e0f9519f2b6b29e3e5e0c5b27df2247&req=diAiEcl9lYJYXvMW1HO4zb8NXdWeMm6Qf63NH%2F4UIoMapSbFa3682Bvjp7Pq%0AIN9M%0A)
 
@@ -57,26 +45,14 @@ The donor's name.
 ## איך צופים בפרטים?
 
 כדי לראות את רשימת התרומות והשמות, עקבו אחר השלבים הבאים:
-1. 
 
-היכנסו לאפליקציה.
-1. 
-
-גשו לבר התחתון (התפריט בתחתית המסך).
-1. 
-
-בחרו בכפתור ״תרומות״ - לצפייה בכלל התרומות של הקמפיין.
-1. 
-
-לחצו על הלשונית** "היעד שלי"**.
-1. 
-
-ברשימה שנפתחת, תוכלו לראות את כל התרומות שנכנסו דרככם.
+1. היכנסו לאפליקציה.
+2. גשו לבר התחתון (התפריט בתחתית המסך).
+3. בחרו בכפתור ״תרומות״ - לצפייה בכלל התרומות של הקמפיין.
+4. לחצו על הלשונית** "היעד שלי"**.
+5. ברשימה שנפתחת, תוכלו לראות את כל התרומות שנכנסו דרככם.
 
 **מה רואים?** עבור כל תרומה (גם אנונימית), תוכלו לראות:
-- 
 
-את **מספר סכום התרומה**.
-- 
-
-את **שם התורם/ת**.
+- את **מספר סכום התרומה**.
+- את **שם התורם/ת**.

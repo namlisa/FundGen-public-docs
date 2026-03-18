@@ -32,46 +32,55 @@ def md_to_html(md):
     in_list = False
     list_type = None
 
+    def close_list():
+        nonlocal in_list, list_type
+        if in_list:
+            html_lines.append(f'</{list_type}>')
+            in_list = False
+            list_type = None
+
     for line in lines:
-        # Headings
+        # Headings — always close any open list first
         m = re.match(r'^(#{1,4})\s+(.*)', line)
         if m:
-            if in_list:
-                html_lines.append(f'</{list_type}>')
-                in_list = False
+            close_list()
             level = len(m.group(1))
             html_lines.append(f'<h{level}>{m.group(2)}</h{level}>')
             continue
 
         # HR
         if re.match(r'^---+$', line.strip()):
-            if in_list:
-                html_lines.append(f'</{list_type}>')
-                in_list = False
+            close_list()
             html_lines.append('<hr/>')
             continue
 
-        # List items
+        # List items — skip empty bullet lines (just "- " with no text)
         m = re.match(r'^(\s*)[-*]\s+(.*)', line)
         if m:
+            item_text = m.group(2).strip()
+            if not item_text:
+                continue  # skip empty list items
             if not in_list or list_type != 'ul':
                 if in_list:
-                    html_lines.append(f'</{list_type}>')
+                    close_list()
                 html_lines.append('<ul>')
                 in_list = True
                 list_type = 'ul'
-            html_lines.append(f'<li>{inline_md(m.group(2))}</li>')
+            html_lines.append(f'<li>{inline_md(item_text)}</li>')
             continue
 
         m = re.match(r'^(\s*)\d+\.\s+(.*)', line)
         if m:
+            item_text = m.group(2).strip()
+            if not item_text:
+                continue  # skip empty ordered list items
             if not in_list or list_type != 'ol':
                 if in_list:
                     html_lines.append(f'</{list_type}>')
                 html_lines.append('<ol>')
                 in_list = True
                 list_type = 'ol'
-            html_lines.append(f'<li>{inline_md(m.group(2))}</li>')
+            html_lines.append(f'<li>{inline_md(item_text)}</li>')
             continue
 
         # Close list if needed

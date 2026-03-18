@@ -10,69 +10,42 @@ collection_he: "ניהול הקמפיין"
 # Smart Message Templates
 
 ## **Accessing the Interface and Language Settings**
-- 
 
-**Log in to the Admin Interface:** [https://admin.givingl.ink/dashboard](https://www.google.com/url?sa=E&source=gmail&q=https://admin.givingl.ink/dashboard)
-- 
-
-**Log in using a user with Admin Permissions.**
+- **Log in to the Admin Interface:** [https://admin.givingl.ink/dashboard](https://www.google.com/url?sa=E&source=gmail&q=https://admin.givingl.ink/dashboard)
+- **Log in using a user with Admin Permissions.**
 
 ## **Accessing the Message Templates Screen**
-- 
 
-In the main toolbar, enter the **Messages** category.
-- 
-
-Select **Message Templates**.
-- 
-
-This screen allows for the creation, editing, and management of message templates for ambassadors.
+- In the main toolbar, enter the **Messages** category.
+- Select **Message Templates**.
+- This screen allows for the creation, editing, and management of message templates for ambassadors.
 
 ## **Message Template Structure**
 
 A message template is structured to combine fixed content with personal details automatically populated upon sending. **Typically, the template includes:**
-- 
 
-A personal opening with the recipient's name.
-- 
-
-A pre-defined fixed message body.
-- 
-
-A closing including the sending ambassador's personal link.
+- A personal opening with the recipient's name.
+- A pre-defined fixed message body.
+- A closing including the sending ambassador's personal link.
 
 ## **Using Ready-Made Templates**
 
 At the bottom of the template editing screen, the following are displayed:
-- 
 
-Message template examples.
-- 
-
-Ready-to-use templates.
+- Message template examples.
+- Ready-to-use templates.
 
 You can select one of the existing templates, edit it as needed, or use it as a base for creating a new template.
 
 ## **Creating a New Message Template**
-1. 
 
-On the Message Templates screen, click the **pencil icon (Add)**.
-1. 
+1. On the Message Templates screen, click the **pencil icon (Add)**.
+2. Enter the message content in the editing field.
+3. **You can integrate dynamic variables, such as:**
+  - Recipient's Name `##NAME##`
+  - Ambassador's Personal Link `##LINK##`
 
-Enter the message content in the editing field.
-1. 
-
-**You can integrate dynamic variables, such as:**
-  - 
-
-Recipient's Name `##NAME##`
-  - 
-
-Ambassador's Personal Link `##LINK##`
-
-1. 
-
-**Save the template.**
+4. **Save the template.**
 
 ---
 
@@ -81,80 +54,47 @@ Ambassador's Personal Link `##LINK##`
 #### לפני שמתחילים: ניתן לצפות במדריך מצולם.
 
 ## כניסה לממשק והגדרות שפה
-1. 
 
-יש להיכנס לממשק הניהול בקישור:  
-[https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
-1. 
-
-יש להתחבר באמצעות משתמש בעל **הרשאת מנהל**.
+1. יש להיכנס לממשק הניהול בקישור: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
+2. יש להתחבר באמצעות משתמש בעל **הרשאת מנהל**.
 
 ברירת המחדל של שפת המערכת היא אנגלית. לשינוי השפה לעברית:
-1. 
 
-בסרגל הכלים העליון יש ללחוץ על **CHANGE LANGUAGE**
-1. 
-
-לבחור באפשרות **Hebrew**
-1. 
-
-הממשק יתעדכן אוטומטית לשפה העברית
+1. בסרגל הכלים העליון יש ללחוץ על **CHANGE LANGUAGE**
+2. לבחור באפשרות **Hebrew**
+3. הממשק יתעדכן אוטומטית לשפה העברית
 
 ## כניסה למסך תבניות הודעות
-1. 
 
-בסרגל הכלים הראשי יש להיכנס לקטגוריית **הודעות**
-1. 
-
-לבחור ב־**תבניות הודעה**
-1. 
-
-במסך זה מתבצעת יצירה, עריכה וניהול של תבניות ההודעות לשגרירים
+1. בסרגל הכלים הראשי יש להיכנס לקטגוריית **הודעות**
+2. לבחור ב־**תבניות הודעה**
+3. במסך זה מתבצעת יצירה, עריכה וניהול של תבניות ההודעות לשגרירים
 
 ## מבנה תבנית הודעה
 
 תבנית הודעה בנויה כך שתשלב בין תוכן קבוע לבין פרטים אישיים המוזנים אוטומטית בעת השליחה.
 
 בדרך כלל, התבנית כוללת:
-- 
 
-פתיחה אישית עם **שם מקבל ההודעה**
-- 
-
-גוף הודעה קבוע המוגדר מראש
-- 
-
-סיום הכולל **קישור אישי של השגריר השולח**
+- פתיחה אישית עם **שם מקבל ההודעה**
+- גוף הודעה קבוע המוגדר מראש
+- סיום הכולל **קישור אישי של השגריר השולח**
 
 ## שימוש בתבניות מוכנות
 
 בחלקו התחתון של מסך עריכת התבנית מוצגות:
-- 
 
-**דוגמאות לתבניות הודעה**
-- 
-
-**תבניות מוכנות לשימוש**
+- **דוגמאות לתבניות הודעה**
+- **תבניות מוכנות לשימוש**
 
 ניתן לבחור אחת מהתבניות הקיימות, לערוך אותה לפי הצורך, או להשתמש בה כבסיס ליצירת תבנית חדשה.
 
 ## יצירת תבנית הודעה חדשה
-1. 
 
-במסך תבניות הודעות, יש ללחוץ על אייקון של עיפרון - הוספה
-1. 
+1. במסך תבניות הודעות, יש ללחוץ על אייקון של עיפרון - הוספה
+2. יש להזין את תוכן ההודעה בשדה העריכה
+3. ניתן לשלב משתנים דינמיים, כגון:
+  - שם מקבל ההודעה ##NAME##
+  - קישור אישי של השגריר ##LINK##
 
-יש להזין את תוכן ההודעה בשדה העריכה
-1. 
-
-ניתן לשלב משתנים דינמיים, כגון:
-  - 
-
-שם מקבל ההודעה ##NAME##
-  - 
-
-קישור אישי של השגריר ##LINK##
-
-1. 
-
-יש לשמור את התבנית
+4. יש לשמור את התבנית

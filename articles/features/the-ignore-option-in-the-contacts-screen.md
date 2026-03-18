@@ -20,35 +20,23 @@ On the **Contacts** screen in the application, next to each contact, there is an
 What does the "Ignore" option do?
 
 When marking a contact as - "Ignore":
-- 
 
-The contact is **immediately hidden** from the main list.
-- 
-
-They are moved to a dedicated area of ignored contacts.
-- 
-
-The main list remains **clean and focused**.
-- 
-
-You can focus on the contacts that are important and relevant to the campaign. **Important:** Ignoring does not delete the contact from the system.
+- The contact is **immediately hidden** from the main list.
+- They are moved to a dedicated area of ignored contacts.
+- The main list remains **clean and focused**.
+- You can focus on the contacts that are important and relevant to the campaign. **Important:** Ignoring does not delete the contact from the system.
 
 If I made a mistake?
 
 If the ignore action was performed by mistake or the situation has changed:
-- 
 
-Enter the **Ignored Contacts** area - in the top toolbar
+- Enter the **Ignored Contacts** area - in the top toolbar
 
 ![](https://downloads.intercomcdn.com/i/o/entwkecd/2077387257/01e9c6b8ff9b6b5c0e0ac8ab8166/image.png?expires=1771407600&signature=3f78c9d739c693106c62a152a4aba8f2ece081bf24ead76b0ada575dbe650383&req=diAgEcp2moNaXvMU3HP0gM1tCKM%2BtYPpbevysE3uAqglUvPIhdE%3D%0A)
 
 .
-- 
-
-Select the **Unignore** option next to the desired contact.
-- 
-
-The contact reappears on the main contacts screen.
+- Select the **Unignore** option next to the desired contact.
+- The contact reappears on the main contacts screen.
 
 Common Questions
 
@@ -70,37 +58,24 @@ Common Questions
 
 בעת סימון איש קשר כ -“התעלם”: 
 
-- 
-
-איש הקשר **מוסתר באופן מיידי** מהרשימה הראשית.
-- 
-
-הוא מועבר ל**אזור ייעודי של אנשי קשר שהתעלמו מהם**.
-- 
-
-הרשימה הראשית נשארת **נקייה וממוקדת**.
-- 
-
-ניתן להתרכז באנשי הקשר החשובים והרלוונטיים לקמפיין.
+- איש הקשר **מוסתר באופן מיידי** מהרשימה הראשית.
+- הוא מועבר ל**אזור ייעודי של אנשי קשר שהתעלמו מהם**.
+- הרשימה הראשית נשארת **נקייה וממוקדת**.
+- ניתן להתרכז באנשי הקשר החשובים והרלוונטיים לקמפיין.
 
 חשוב: ההתעלמות אינה מוחקת את איש הקשר מהמערכת.
 
 ## אם טעיתי?
 
 במידה וההתעלמות בוצעה בטעות או שהמצב השתנה:
-1. 
 
-נכנסים לאזור **אנשי הקשר שהתעלמו מהם - **בסרגל כלים העליון 
+1. נכנסים לאזור **אנשי הקשר שהתעלמו מהם - **בסרגל כלים העליון 
 
 ![](https://downloads.intercomcdn.com/i/o/entwkecd/2077352389/09e17d8ec65324bc16c4baa5fe26/image.png?expires=1771407000&signature=a6f2b8325c0a5831996f5d158608ce1a494d95ea21c6ec3d82c1089578f7608a&req=diAgEcp7n4JXUPMU3HP0gGJrfxr9tv87nVK%2F%2BWi0e57A6rB81aY%3D%0A)
 
 .
-1. 
-
-בוחרים באפשרות **ביטול התעלמות** ליד איש הקשר הרצוי.
-1. 
-
-איש הקשר חוזר להופיע במסך אנשי הקשר הראשי.
+2. בוחרים באפשרות **ביטול התעלמות** ליד איש הקשר הרצוי.
+3. איש הקשר חוזר להופיע במסך אנשי הקשר הראשי.
 
 ## שאלות נפוצות 
 

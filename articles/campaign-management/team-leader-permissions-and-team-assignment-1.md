@@ -14,33 +14,14 @@ collection_he: "ניהול הקמפיין"
 You must be logged in as a user with **Admin Permissions**.
 
 ## **Steps to Upload Global Leads**
-1. 
 
-**Log in to the Admin Interface** (via computer/mobile) [https://admin.givingl.ink/dashboard](https://www.google.com/url?sa=E&source=gmail&q=https://admin.givingl.ink/dashboard)
-1. 
-
-In the main toolbar, select the **Global Contacts** menu.
-1. 
-
-From the menu, enter the **Global Contacts** tab.
-1. 
-
-Once in the tab, scroll down slightly.
-1. 
-
-The page will display the list of campaign ambassadors, including all participants who have set a campaign goal.
-1. 
-
-Click on the **Document Upload icon** (as shown in the image).
-1. 
-
-Clicking the icon will open a new window containing a detailed explanation regarding the file structure and required content.
-
-► For your convenience, a ready-to-copy format is displayed in the window to ensure accurate data entry.
-
-► **Strictly adhere to the header capitalization** exactly as shown in the example form (e.g., enter "Name", not "NAME"). **Phone numbers must include the country code** (e.g., +972 for Israel).
-
-► Any deviation from the required format may prevent the file from uploading correctly.
+1. **Log in to the Admin Interface** (via computer/mobile) [https://admin.givingl.ink/dashboard](https://www.google.com/url?sa=E&source=gmail&q=https://admin.givingl.ink/dashboard)
+2. In the main toolbar, select the **Global Contacts** menu.
+3. From the menu, enter the **Global Contacts** tab.
+4. Once in the tab, scroll down slightly.
+5. The page will display the list of campaign ambassadors, including all participants who have set a campaign goal.
+6. Click on the **Document Upload icon** (as shown in the image).
+7. Clicking the icon will open a new window containing a detailed explanation regarding the file structure and required content. ► For your convenience, a ready-to-copy format is displayed in the window to ensure accurate data entry. ► **Strictly adhere to the header capitalization** exactly as shown in the example form (e.g., enter "Name", not "NAME"). **Phone numbers must include the country code** (e.g., +972 for Israel). ► Any deviation from the required format may prevent the file from uploading correctly.
 
 **For your convenience:** A video tutorial is available on how to add a country code (e.g., +972) and merge two columns into one.
 

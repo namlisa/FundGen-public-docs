@@ -17,12 +17,9 @@ You can access the Admin Interface here:
 
 All **platform campaign managers** already have access to the admin dashboard.  
 Managers from the **organization side** will only get access if either:
-- 
 
-They become ambassadors in the campaign, or
-- 
-
-They are added as managers in **Step 2** during this setup process.
+- They become ambassadors in the campaign, or
+- They are added as managers in **Step 2** during this setup process.
 
 ---
 
@@ -33,12 +30,9 @@ They are added as managers in **Step 2** during this setup process.
 In this step you will set the timeframe of your campaign.
 
 Please select:
-- 
 
-Campaign start date
-- 
-
-Campaign end date
+- Campaign start date
+- Campaign end date
 
 Make sure the dates are correct, as they determine when the campaign will run and how activity will be tracked in the system.
 
@@ -55,12 +49,9 @@ In this step you can add managers who will have access to the **Manager Dashboar
 These users will be able to manage and edit the content that appears in the app.
 
 For each manager you can add:
-- 
 
-Name
-- 
-
-Phone number
+- Name
+- Phone number
 
 Once added, these managers will have access to the system.
 
@@ -80,18 +71,11 @@ Important recommendation:
 It is **highly recommended to perform this step from a computer**, as connecting WhatsApp is much easier from desktop.
 
 What to do:
-1. 
 
-Open the WhatsApp connection screen
-1. 
-
-Follow the instructions to connect your WhatsApp instance
-1. 
-
-If a QR code appears, scan it using WhatsApp on your phone
-1. 
-
-Wait for confirmation that the connection was successful
+1. Open the WhatsApp connection screen
+2. Follow the instructions to connect your WhatsApp instance
+3. If a QR code appears, scan it using WhatsApp on your phone
+4. Wait for confirmation that the connection was successful
 
 Once WhatsApp is connected successfully, continue to the next step.
 
@@ -104,18 +88,11 @@ Once WhatsApp is connected successfully, continue to the next step.
 In this step you can upload the content that will be used during the campaign.
 
 Examples include:
-- 
 
-Images
-- 
-
-Videos
-- 
-
-Campaign materials
-- 
-
-Message templates
+- Images
+- Videos
+- Campaign materials
+- Message templates
 
 These assets will be used when communicating with donors and promoting the campaign.
 
@@ -130,12 +107,9 @@ If you do not want to upload content now, you can **skip this step** and return 
 Here you can upload or add a list of potential donors.
 
 You may:
-- 
 
-Upload a contact list file
-- 
-
-Add contacts manually
+- Upload a contact list file
+- Add contacts manually
 
 This list will help the system organize outreach and donor communication.
 
