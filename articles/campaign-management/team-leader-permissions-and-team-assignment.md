@@ -22,32 +22,32 @@ collection_he: "ניהול הקמפיין"
 
 ## **Steps to Grant 'Team Leader' Permissions**
 
-**1. Log in to the Admin Interface** (Via computer/mobile) – [https://admin.givingl.ink/dashboard](https://www.google.com/url?sa=E&source=gmail&q=https://admin.givingl.ink/dashboard)
+**1. Log in to the Admin Interface**
+Access the FundGen admin interface via computer or mobile: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 
 **2. Navigate to Ambassador Management**
-
 - In the main toolbar, select the **Contacts** menu.
 - From the menu, select the **Manage Ambassadors** tab.
 - Scroll down slightly. The page displays the list of campaign ambassadors, including all participants who have set a campaign goal.
 
-**3. Granting Permissions** To the left of each ambassador, three icons appear:
-
-- **Admin Permissions:** Click the **figure icon with a plus sign (+)**. *(When the button turns green, the action is complete).*
-- **Team Leader Permissions:** Click the **star icon**. *(When the button turns green, the action is complete).*
+**3. Granting Permissions**
+To the left of each ambassador in the list, three icons appear:
+- **Admin Permissions:** Click the **figure icon with a plus sign (+)** to grant administrative permissions. *(The button will turn green when the action is complete).*
+- **Team Leader Permissions:** Click the **star icon** to grant Team Leader permissions. *(The button will turn green when the action is complete).*
 
 ## **Assigning a Team**
 
 Once Team Leader permissions have been granted to the selected ambassadors, you can assign specific ambassadors for them to manage.
 
-**How to assign ambassadors:**
+**How to assign ambassadors to a team:**
 
-1. Select the relevant ambassadors from the list.
-2. Click **Add to Team**.
-3. Select the Team Name.
+1.  Select the relevant ambassadors from the list by checking their boxes.
+2.  Click the **Add to Team** button.
+3.  Select the desired Team Name from the options.
 
 ---
 
-# הרשאת  ראשי צוות , ושיוך צוות
+# הרשאת ראשי צוות ושיוך צוות
 
 לפני שמתחילים: ניתן לצפות במדריך מצולם.
 
@@ -55,36 +55,36 @@ Once Team Leader permissions have been granted to the selected ambassadors, you 
 
 - מנהלי הקמפיין
 - אנשי אסטרטגיה
-- שגרירים משמעותיים בודדים 
+- שגרירים משמעותיים בודדים
 
 ## תנאים מקדימים
 
-- עליך להיות מחובר עם משתמש בעל הרשאת ניהול. ​
-- המשתמש שיקבל הרשאה חייב להיות קיים במערכת (כלומר, שלקח יעד בקמפיין) . ​
+- עליך להיות מחובר עם משתמש בעל הרשאת ניהול.
+- המשתמש שיקבל הרשאה חייב להיות קיים במערכת (כלומר, שלקח יעד בקמפיין).
 
-## שלבים למתן הרשאת ניהול 'ראש צוות'
+## שלבים למתן הרשאת 'ראש צוות'
 
-- כניסה לממשק הניהול (באמצעות מחשב/נייד) - [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
+**1. כניסה לממשק הניהול**
+יש להיכנס לממשק הניהול של FundGen (באמצעות מחשב/נייד) בכתובת: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 
-אם ברצונך להגדיר את שפת המערכת לעברית, יש ללחוץ בסרגל הכלים על CHANGE LANGUAGE, ולאחר מכן לבחור באפשרות Hebrew.
+*טיפ: אם ברצונך להגדיר את שפת המערכת לעברית, יש ללחוץ בסרגל הכלים על **CHANGE LANGUAGE**, ולאחר מכן לבחור באפשרות **Hebrew**.*
 
-- בסרגל הכלים הראשי, יש לבחור בתפריט אנשי קשר.
-- מתוך התפריט, יש להיכנס ללשונית ניהול שגרירים.
-- לאחר הכניסה ללשונית, יש לגלול מעט למטה בעמוד שנפתח.
-- עמוד תוצג רשימת השגרירים של הקמפיין, הכוללת את כלל המשתתפים שלקחו יעד בקמפיין. ​
+**2. ניווט לניהול שגרירים**
+- בסרגל הכלים הראשי, יש לבחור בתפריט **אנשי קשר**.
+- מתוך התפריט, יש להיכנס ללשונית **ניהול שגרירים**.
+- בעמוד שייפתח, גללו מעט למטה. תוצג רשימת השגרירים של הקמפיין, הכוללת את כלל המשתתפים שלקחו יעד בקמפיין.
 
-בצד שמאל של כל שגריר מופיעים שלושה אייקונים:
-
-- לחיצה על אייקון דמות עם סימן פלוס (+) מעניקה לשגריר הרשאות ניהול. 
-
-- לאחר שהכפתור נצבע בירוק לאחר הלחיצה, המשמעות היא שהפעולה בוצעה. ​
-
-- לחיצה על אייקון כוכב מעניקה לשגריר הרשאת ראש צוות.
-
-- (לאחר שהכפתור נצבע בירוק לאחר הלחיצה, המשמעות היא שהפעולה בוצעה).
+**3. מתן הרשאות**
+בצד שמאל של כל שגריר ברשימה מופיעים שלושה אייקונים:
+- **הרשאת ניהול:** לחיצה על **אייקון דמות עם סימן פלוס (+)** מעניקה לשגריר הרשאות ניהול. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
+- **הרשאת ראש צוות:** לחיצה על **אייקון כוכב** מעניקה לשגריר הרשאת ראש צוות. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 
 ## שיוך צוות
 
-לאחר, שנתנו הרשאת ראש צוות למספר שגרירים ראויים. 
+לאחר שניתנה הרשאת ראש צוות לשגרירים הרצויים, ניתן לשייך לכל ראש צוות שגרירים ספציפיים שהוא יהיה אחראי עליהם.
 
-- יש לנו יכולת לשייך לכל ראש צוות, מספר שגרירים שהוא יהיה אחראי עליהם. באופן פשוט וקל, לסמן את השגרירים הנדרשים > ללחוץ על הוספת צוות >ולבחור שם צוות. (ניתן לצפות בסרטון).
+**כיצד לשייך שגרירים לצוות:**
+
+1.  סמנו את השגרירים הרלוונטיים מהרשימה.
+2.  לחצו על כפתור **הוספת צוות**.
+3.  בחרו את שם הצוות הרצוי.

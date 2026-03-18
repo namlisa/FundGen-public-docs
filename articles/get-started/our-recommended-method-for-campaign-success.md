@@ -17,19 +17,15 @@ The first thing to do is clear the noise. Go over the contact list and keep in v
 - Unsuitable contacts
 - Duplicates or errors
 
-Use the "Ignore" option to remove from view what disturbs your focus. Clean list = higher concentration = more results.
+Use the "Ignore" option to remove from view what disturbs your focus. A clean list = higher concentration = more results.
 
 ## Step 2: Use the Key Tools - Take Action
 
 The work is performed mainly through two tools:
 
-- 
-
 ### Call
 
 The most personal and effective way. A call creates connection and commitment.
-
-- 
 
 ### WhatsApp Message
 
@@ -39,16 +35,14 @@ Fast, efficient, with a personal link for tracking. You can use ready-made templ
 
 This is a critical step. Every contact you approached needs to be assigned a clear status:
 
-- Spoke
-- No Answer
-- Promised to Donate
+- Contacted
+- No reply to contact
+- Promised to donate
 - Donated
-- Contact Later
-- Not Interested
+- Contact later
+- Not interested
 
 Some actions update automatically – But if something was not updated, it is important to update manually. Why is this important? Because after hours of calls and messages – You must know exactly where you stand. Without organized statuses – everything gets mixed up.
-
-## 
 
 ## Step 4: Follow-up - This is Where Donations are Closed
 
@@ -62,11 +56,11 @@ Finished the Entire List? Well Done
 
 You worked hard. You called. You sent messages. You documented. You followed up. Excellent. Now it is time to expand.
 
-Enter Global Leads: At the top of the screen, you will see a globe icon. If your campaign manager uploaded hundreds or thousands of contacts there – You can import them and continue working. Thus, after you have finished your local database, You expand the circle of donors and increase the potential for success.
+Enter Potential Donors: At the top of the screen, you will see a globe icon. If your campaign manager uploaded hundreds or thousands of contacts there – You can import them and continue working. Thus, after you have finished your local database, You expand the circle of donors and increase the potential for success.
 
 Our Method
 
-## Cleaning > Action > Documentation > Follow-up > Expanding Donation Circles 
+## Cleaning > Action > Documentation > Follow-up > Expanding Donation Circles
 
 ## This is the correct way to work.
 
@@ -77,8 +71,6 @@ Our Method
 ---
 
 # הדרך המומלצת שלנו להצלחה בקמפיין
-
-# 
 
 ## שלב 1: ניקוי רשימת אנשי הקשר
 
@@ -98,21 +90,17 @@ Our Method
 
 העבודה מתבצעת בעיקר דרך שני כלים:
 
-- 
+### שיחה
 
-## שיחה
-
-הדרך האישית והאפקטיבית ביותר.  
+הדרך האישית והאפקטיבית ביותר.
 שיחה יוצרת חיבור ומחויבות.
 
-- 
+### הודעת WhatsApp
 
-## הודעת WhatsApp
-
-מהירה, יעילה, עם קישור אישי למעקב.  
+מהירה, יעילה, עם קישור אישי למעקב.
 אפשר להשתמש בתבניות מוכנות ולחסוך זמן.
 
-העיקרון פשוט:  
+העיקרון פשוט:
 לא מחכים לרגע המושלם. מתחילים לפעול.
 
 ## שלב 3: כל איש קשר חייב לקבל סטטוס
@@ -121,60 +109,58 @@ Our Method
 
 כל איש קשר שפנית אליו צריך לקבל סטטוס ברור:
 
-- דיברתי
-- לא ענה
-- הבטיח לתרום
+- יצרתי קשר
+- לא ענה לפנייה
+- התחייב לתרום
 - תרם
 - ליצור קשר מאוחר יותר
 - לא מעוניין
 
-חלק מהפעולות מתעדכנות אוטומטית –  
+חלק מהפעולות מתעדכנות אוטומטית –
 אבל אם משהו לא עודכן, חשוב לעדכן ידנית.
 
 למה זה חשוב?
 
-כי אחרי שעות של שיחות והודעות –  
+כי אחרי שעות של שיחות והודעות –
 אתה חייב לדעת בדיוק איפה אתה עומד.
 
 בלי סטטוסים מסודרים – הכל מתערבב.
 
 ## שלב 4: מעקב – כאן נסגרות התרומות
 
-מי שאמר "אולי אחר כך"  
-מי שביקש שתחזור אליו  
-מי שהבטיח לתרום
+מי שאמר "אולי אחר כך"
+מי שביקש שתחזור אליו
+מי שהתחייב לתרום
 
 חוזרים אליו.
 
-לא משאירים אנשים באוויר.  
+לא משאירים אנשים באוויר.
 לא סומכים על הזיכרון.
 
 אם צריך – מגדירים תזכורת.
 
 רוב התרומות נסגרות במעקב, לא בפנייה הראשונה.
 
-## 
-
 ## סיימת את כל הרשימה? כל הכבוד
 
-עבדת קשה. התקשרת. שלחת. תיעדת. חזרת.  
+עבדת קשה. התקשרת. שלחת. תיעדת. חזרת.
 מעולה.
 
 עכשיו הזמן להרחיב.
 
-כנס **ללידים הגלובליים**:  
-למעלה במסך תראה אייקון של כדור רשת 
+כנס **לתורמים פוטנציאליים**:
+למעלה במסך תראה אייקון של כדור רשת
 
-אם מנהל הקמפיין שלך העלה לשם מאות או אלפי אנשי קשר –  
+אם מנהל הקמפיין שלך העלה לשם מאות או אלפי אנשי קשר –
 אתה יכול לייבא אותם ולהמשיך לעבוד.
 
-כך, אחרי שסיימת את המאגר המקומי שלך,  
+כך, אחרי שסיימת את המאגר המקומי שלך,
 אתה מרחיב את מעגל התורמים ומגדיל את פוטנציאל ההצלחה.
 
 ## השיטה שלנו
 
 ניקוי > פעולה > תיעוד > מעקב > הרחבת מעגלי התרמה
 
-כך עובדים נכון.  
-כך מתקדמים.  
+כך עובדים נכון.
+כך מתקדמים.
 כך מגיעים ליעד.
