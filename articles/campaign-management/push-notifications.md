@@ -6,21 +6,20 @@ state: "published"
 collection: "Campaign Management"
 collection_he: "ניהול הקמפיין"
 ---
-
 # Push notifications
 
-## **Accessing the Interface and Language Settings**
+## Accessing the Interface
 
-- **Log in to the Admin Interface:** [https://admin.givingl.ink/dashboard](https://www.google.com/url?sa=E&source=gmail&q=https://admin.givingl.ink/dashboard)
+- **Log in to the Admin Interface:** [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 - **Log in using a user with Admin Permissions.**
 
-## **Accessing the Push Messages Screen**
+## Accessing the Push Messages Screen
 
-- In the main toolbar, enter the **Messages** category.
+- In the main toolbar, navigate to the **Messages** category.
 - Select **Push Messages**.
-- This screen allows for the creation, editing, and management of Push messages.
+- This screen allows for the creation, editing, and management of push messages.
 
-## **Adding a Scheduled Push Message**
+## Adding a Scheduled Push Message
 
 - Click the **➕ (Add)** button in the center of the screen.
 - The "Add Scheduled Message" window will open.
@@ -30,9 +29,9 @@ collection_he: "ניהול הקמפיין"
 - Message Title
 - Message Content
 
-## **Selecting the Target Audience**
+## Selecting the Target Audience
 
-When creating a Push message, you can select the target audience:
+When creating a push message, you can select the target audience:
 
 - **Send to All Ambassadors** – The message will be sent to all campaign ambassadors.
 - **Send to Specific Ambassadors** – You can select specific ambassadors to receive the message.
@@ -43,9 +42,7 @@ When creating a Push message, you can select the target audience:
 
 ### לפני שמתחילים: ניתן לצפות במדריך מצולם.
 
-###   
-
-### כניסה לממשק והגדרות שפה
+## כניסה לממשק והגדרות שפה
 
 1. יש להיכנס לממשק הניהול בקישור: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 2. יש להתחבר באמצעות משתמש בעל **הרשאת מנהל**.
@@ -56,16 +53,16 @@ When creating a Push message, you can select the target audience:
 2. לבחור באפשרות **Hebrew**
 3. הממשק יתעדכן אוטומטית לשפה העברית
 
-## כניסה למסך הודעות Push 
+## כניסה למסך הודעות Push
 
-1. בסרגל הכלים הראשי יש להיכנס לקטגוריית **הודעות**
-2. לבחור ב - **הודעות פוש**
-3. במסך זה מתבצעת יצירה, עריכה וניהול של הודעות Push
+1. בסרגל הכלים הראשי יש לנווט לקטגוריית **הודעות**.
+2. לבחור ב - **הודעות פוש**.
+3. במסך זה מתבצעת יצירה, עריכה וניהול של הודעות פוש.
 
 ## הוספת הודעת Push מתוזמנת
 
-1. במרכז המסך יש ללחוץ על כפתור **➕ (הוספה)**
-2. תיפתח חלונית **“הוסף הודעה מתוזמנת”**
+1. במרכז המסך יש ללחוץ על כפתור **➕ (הוספה)**.
+2. תיפתח חלונית **"הוסף הודעה מתוזמנת"**.
 3. בחלונית ההגדרה קיימים שני שדות תוכן:
   - **כותרת ההודעה**
   - **תוכן ההודעה**
@@ -74,5 +71,5 @@ When creating a Push message, you can select the target audience:
 
 בעת יצירת הודעת ה-Push ניתן לבחור את קהל היעד לשליחה:
 
-- **שליחה לכל השגרירים** – ההודעה תישלח לכלל השגרירים בקמפיין
-- **שליחה לשגרירים ספציפיים** – ניתן לבחור שגרירים מסוימים בלבד ולשלוח אליהם את ההודעה
+- **שליחה לכל השגרירים** – ההודעה תישלח לכלל השגרירים בקמפיין.
+- **שליחה לשגרירים ספציפיים** – ניתן לבחור שגרירים מסוימים בלבד ולשלוח אליהם את ההודעה.

@@ -11,9 +11,9 @@ collection_he: "ניהול הקמפיין"
 
 # Connecting and Configuring the WhatsApp Bot
 
-## 1. Accessing the Management Interface
+## 1. Accessing the Admin Interface
 
-- Log in to the management dashboard via the following link: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
+- Log in to the admin interface via the following link: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 - Please ensure you log in using a user account with **Admin** privileges.
 
 ## 2. Changing the Interface Language
@@ -63,7 +63,9 @@ Click on the **'Connect Bot to WhatsApp'** tab. The following screen will appear
 
 ## 6. Editing the Bot and Customizing Campaign Alerts
 
-Once the bot is connected to the campaign group, enter the edit screen to configure which alerts and automated messages will be active during the campaignCampaign Milestones
+Once the bot is connected to the campaign group, enter the edit screen to configure which alerts and automated messages will be active during the campaign.
+
+### Campaign Milestone
 
 In this tab, you can configure the bot to send a message when a specific partial goal is reached (e.g., 25% of the target).
 
@@ -84,16 +86,14 @@ This is one of the central features of the system. You can configure an encourag
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
 - **Timing:** You can define the bot's operating hours.
 
-## Summary Alerts
+## Scheduled Summary Messages
 
-Under the **Summary Alerts** section, all the alerts listed below it are aggregated and sent together in a single, concentrated message. These alerts generate high motivation and encourage activity within the group. Examples include:
+Under the **Scheduled Summary Messages** section, all the alerts listed below it are aggregated and sent together in a single, concentrated message. These alerts generate high motivation and encourage activity within the group. Examples include:
 
-- **First Donation:** Acknowledging the first contribution.
-- **Hot Streak:** Recognizing a rapid series of donations.
-- **Summary Donations:** A digest of recent contributions.
-- **Summary Reminders:** General campaign updates.
-- And more... 
- 
+- **First Donation**
+- **Hot Streak**
+- **Donation Stats**
+- And more...
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c9647c4c73f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
 
@@ -103,18 +103,16 @@ Under the **Summary Alerts** section, all the alerts listed below it are aggrega
 
 ## **לפני שמתחילים: ניתן לצפות במדריך מצולם.**
 
-# 
-
 ## 1. כניסה לממשק הניהול
 
-יש להיכנס לממשק בקישור:  
+יש להיכנס לממשק הניהול בקישור:
 [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 
 יש להתחבר באמצעות משתמש בעל הרשאת מנהל.
 
 ## 2. שינוי שפה מאנגלית לעברית
 
-ברירת המחדל של המערכת היא אנגלית.  
+ברירת המחדל של המערכת היא אנגלית.
 כדי לעבוד בעברית:
 
 1. בסרגל הכלים העליון יש ללחוץ על **CHANGE LANGUAGE**
@@ -146,7 +144,7 @@ Under the **Summary Alerts** section, all the alerts listed below it are aggrega
 
 ## 5. אופן ההתחברות
 
-לאחר לחיצה על הטאב - 'חיבור בוט לווצאפ' יופי המסך הבא:  
+לאחר לחיצה על הטאב - 'חיבור בוט לווצאפ' יופיע המסך הבא:
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069749762/3a4bd10b1763d334e3e514834cb9/image.png?expires=1773837900&signature=7e1e6c6ffdae27f1eb411369ebfe269694be6c6fd2e4451c85ff533ee11546ea&req=diAhH856lIZZW%2FMW1HO4zZD2ZrXXmfvPf%2B7QpQ4AZO%2FutLyPC2%2FVzddH5sfk%0A7SDc%0A)
 
@@ -167,15 +165,15 @@ Under the **Summary Alerts** section, all the alerts listed below it are aggrega
 
 לאחר חיבור הבוט לקבוצת הקמפיין, יש להיכנס למסך העריכה ולהחליט אילו התראות והודעות אוטומטיות יפעלו במהלך הקמפיין.
 
-## אבן דרך בקמפיין
+### אבן דרך לקמפיין
 
 - בטאב זה ניתן להגדיר שהבוט ישלח הודעה כאשר מגיעים ליעד חלקי שנקבע מראש (לדוגמה: 25% מהיעד).
 - ההתראה נועדה לציין התקדמות ולהכניס אנרגיה לקבוצה.
 
 ## כיבוי התראה
 
-- אם אין צורך בהתראה מסוימת, ניתן לכבות אותה באמצעות לחיצה על הכדור בצד שמאל.
-- כאשר הכפתור משתנה מ־תכלת לאפור — ההתראה כבויה.
+- אם אין צורך בהתראה מסוימת, ניתן לכבות אותה באמצעות לחיצה על הכפתור בצד שמאל.
+- כאשר הכפתור משתנה מתכלת לאפור — ההתראה כבויה.
 
 ## פרגון על תרומה מסכום מסוים
 
@@ -185,16 +183,15 @@ Under the **Summary Alerts** section, all the alerts listed below it are aggrega
 - קיימות מספר הודעות שנשלחות במחזוריות.
 - ניתן לקבוע את זמני ושעות פעילות הבוט.
 
-## התראות תקציר
+## הודעות סיכום מתוזמנות
 
-תחת הכותרת **התראות תקציר**, כל ההתראות המופיעות מתחתיה נשלחות יחד בתוך הודעה אחת מרוכזת.
+תחת הכותרת **הודעות סיכום מתוזמנות**, כל ההתראות המופיעות מתחתיה נשלחות יחד בתוך הודעה אחת מרוכזת.
 
 התראות אלו יוצרות מוטיבציה גבוהה ומעודדות פעילות בקבוצה, לדוגמה:
 
 - **תרומה ראשונה**
 - **רצף חם**
-- **תרומות תקציר**
-- **תזכורות תקציר**
+- **סטטיסטיקת תרומות**
 - ועוד…
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069739563/e2b342357015034f820a390a41c9/image.png?expires=1773837900&signature=6d3532d6b5433e8c79bbffb6e4569428110b0ffcea2afa13b2565c9c0462089a&req=diAhH859lIRZWvMW1HO4zWDZS%2BBQHPakGw14BEICrA0aSY0mKjmDGFrDvi4M%0AyG50%0A)
