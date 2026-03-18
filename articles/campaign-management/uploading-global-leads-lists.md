@@ -1,13 +1,13 @@
 ---
 intercom_article_id: "13509210"
-title_en: "Team Leader Permissions and Team Assignment"
+title_en: "Uploading Global Leads Lists"
 title_he: "העלאת רשימות של לידים גלובליים"
 state: "published"
 collection: "Campaign Management"
 collection_he: "ניהול הקמפיין"
 ---
 
-# Team Leader Permissions and Team Assignment
+# Uploading Global Leads Lists
 
 ## **Prerequisites:**
 

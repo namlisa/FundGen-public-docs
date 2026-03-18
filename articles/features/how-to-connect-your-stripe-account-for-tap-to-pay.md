@@ -2,6 +2,8 @@
 intercom_article_id: "13688464"
 title_en: "How to Connect Your Stripe Account for Tap to Pay"
 state: "published"
+collection: "Features"
+collection_he: "פונקציות"
 ---
 
 # How to Connect Your Stripe Account for Tap to Pay

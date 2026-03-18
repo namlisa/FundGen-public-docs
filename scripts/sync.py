@@ -31,6 +31,8 @@ def md_to_html(md):
     html_lines = []
     in_list = False
     list_type = None
+    in_table = False
+    table_rows = []
 
     def close_list():
         nonlocal in_list, list_type
@@ -39,7 +41,33 @@ def md_to_html(md):
             in_list = False
             list_type = None
 
+    def flush_table():
+        nonlocal in_table, table_rows
+        if table_rows:
+            html_lines.append('<table><tbody>')
+            for row in table_rows:
+                html_lines.append('<tr>' + ''.join(f'<td>{inline_md(c)}</td>' for c in row) + '</tr>')
+            html_lines.append('</tbody></table>')
+        in_table = False
+        table_rows = []
+
     for line in lines:
+        # Table rows — | col | col |
+        if re.match(r'^\|', line.strip()):
+            # Skip separator rows like |---|---|
+            if re.match(r'^[\|\s\-:]+$', line.strip()):
+                in_table = True
+                continue
+            close_list()
+            in_table = True
+            cells = [c.strip() for c in line.strip().strip('|').split('|')]
+            table_rows.append(cells)
+            continue
+
+        # Flush table when we hit a non-table line
+        if in_table and not re.match(r'^\|', line.strip()):
+            flush_table()
+
         # Headings — always close any open list first
         m = re.match(r'^(#{1,4})\s+(.*)', line)
         if m:
@@ -95,6 +123,8 @@ def md_to_html(md):
 
     if in_list:
         html_lines.append(f'</{list_type}>')
+    if in_table:
+        flush_table()
 
     return '\n'.join(html_lines)
 

@@ -3,6 +3,8 @@ intercom_article_id: "13609288"
 title_en: "Scheduled messages"
 title_he: "הודעות מתוזמנות"
 state: "published"
+collection: "Campaign Management"
+collection_he: "ניהול הקמפיין"
 ---
 
 # Scheduled messages
