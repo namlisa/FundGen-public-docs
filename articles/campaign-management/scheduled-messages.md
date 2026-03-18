@@ -53,6 +53,14 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 1.  יש להיכנס לממשק הניהול של FundGen בקישור: [https://admin.givingl.ink/dashboard](https://admin.givingl.ink/dashboard)
 2.  יש להתחבר באמצעות משתמש בעל **הרשאת מנהל**.
 
+## החלפת שפת המערכת לעברית
+
+ברירת המחדל של המערכת היא אנגלית. לשינוי השפה לעברית:
+
+1.  בסרגל הכלים העליון יש ללחוץ על **CHANGE LANGUAGE**
+2.  לבחור **Hebrew**
+3.  הממשק יתעדכן אוטומטית
+
 ## כניסה למסך הודעות מתוזמנות
 
 1.  בסרגל הכלים הראשי יש להיכנס לקטגוריית **הודעות**.
