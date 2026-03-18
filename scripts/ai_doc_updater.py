@@ -54,7 +54,7 @@ def read_all_articles():
 
 def ask_gemini(pr_context, articles):
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     full_articles = '\n\n'.join([
         f"=== {path} ===\n{content}"
