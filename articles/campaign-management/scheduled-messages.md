@@ -38,6 +38,7 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 *   **Hot Streak:** Notifies about a period of high donation activity or a series of quick donations.
 *   **Goal Milestone:** Alerts when a specific fundraising goal or target is achieved.
 *   **First Donation:** Celebrates the first donation received for the campaign.
+*   **Donor Welcome Message:** Sends a customizable welcome message (including text and media) to a new donor after their first contribution to the campaign.
 *   **Recurring Highlight:** Highlights recurring donations or new recurring donors.
 *   **Leaderboard:** Shares updates on the top donors or ambassadors based on campaign performance.
 *   **Donation Stats:** Provides a summary of overall donation statistics for the campaign.
@@ -85,6 +86,7 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 *   **רצף חם:** מודיע על תקופה של פעילות תרומות גבוהה או סדרת תרומות מהירות.
 *   **אבן דרך ליעד:** מתריע כאשר יעד גיוס כספים ספציפי מושג.
 *   **תרומה ראשונה:** חוגג את התרומה הראשונה שהתקבלה לקמפיין.
+*   **הודעת קבלת פנים לתורם חדש:** שולח הודעת קבלת פנים ניתנת להתאמה אישית (כולל טקסט ומדיה) לתורם חדש לאחר תרומתו הראשונה לקמפיין.
 *   **הדגשת תרומה חוזרת:** מדגיש תרומות חוזרות או תורמים חוזרים חדשים.
 *   **לוח מובילים:** משתף עדכונים על התורמים או השגרירים המובילים בהתבסס על ביצועי הקמפיין.
 *   **סטטיסטיקת תרומות:** מספק סיכום של סטטיסטיקות התרומות הכוללות לקמפיין.

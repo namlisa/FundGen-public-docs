@@ -63,7 +63,7 @@ Click on the **'Connect Bot to WhatsApp'** tab. The following screen will appear
 
 ## 6. Editing the Bot and Customizing Campaign Alerts
 
-Once the bot is connected to the campaign group, enter the edit screen to configure which alerts and automated messages will be active during the campaign.
+Once the bot is connected to the campaign group, enter the edit screen to configure which alerts and automated messages will be active during the campaign, **including their customizable content and media attachments.**
 
 ### Campaign Milestone
 
@@ -82,9 +82,17 @@ If a specific alert is not required, you can disable it by clicking the toggle b
 
 This is one of the central features of the system. You can configure an encouraging message to be sent whenever a donation exceeds a specific amount (e.g., 500 NIS).
 
-- **Customization:** You can edit the text of the messages.
+- **Customization:** You can edit the text *and add media (images, GIFs, videos)* of the messages.
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
-- **Timing:** You can define the bot's operating hours.
+- **Timing:** You can define the bot's operating hours *and specific days of the week*. **An enhanced message preview is available to see how your message will appear before publishing.**
+
+## Donor Welcome Message
+
+This new feature allows you to send a personalized welcome message when a new donor makes their first donation to your campaign. It's an excellent way to thank them immediately and provide relevant campaign information.
+
+- **Customization:** You can customize the message text and include media (images, GIFs, videos) to make the welcome more engaging.
+- **Purpose:** Designed to acknowledge and appreciate first-time donors, encouraging continued engagement.
+- **Timing:** Configurable operating hours and specific days of the week.
 
 ## Scheduled Summary Messages
 
@@ -163,7 +171,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 ## 6. עריכת הבוט והתאמת ההתראות לקמפיין
 
-לאחר חיבור הבוט לקבוצת הקמפיין, יש להיכנס למסך העריכה ולהחליט אילו התראות והודעות אוטומטיות יפעלו במהלך הקמפיין.
+לאחר חיבור הבוט לקבוצת הקמפיין, יש להיכנס למסך העריכה ולהחליט אילו התראות והודעות אוטומטיות יפעלו במהלך הקמפיין, **כולל התוכן הניתן להתאמה אישית וצירוף מדיה.**
 
 ### אבן דרך לקמפיין
 
@@ -179,9 +187,17 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 - זהו אחד הטאבים המרכזיים במערכת.
 - ניתן להגדיר שליחת הודעת עידוד כאשר מתקבלת תרומה מעל סכום שנבחר (לדוגמה: 500 ש"ח).
-- ניתן לערוך את נוסח ההודעות.
+- **ניתן לערוך את נוסח ההודעות *ולהוסיף מדיה (תמונות, GIFS, סרטונים)***.
 - קיימות מספר הודעות שנשלחות במחזוריות.
-- ניתן לקבוע את זמני ושעות פעילות הבוט.
+- **ניתן לקבוע את זמני ושעות פעילות הבוט *ואת ימי השבוע הספציפיים*. תצוגה מקדימה משופרת זמינה כדי לראות כיצד ההודעה שלך תיראה לפני הפרסום.**
+
+## הודעת קבלת פנים לתורם חדש
+
+תכונה חדשה זו מאפשרת לך לשלוח הודעת קבלת פנים מותאמת אישית כאשר תורם חדש מבצע את תרומתו הראשונה לקמפיין. זוהי דרך מצוינת להודות להם באופן מיידי ולספק מידע רלוונטי על הקמפיין.
+
+- **התאמה אישית:** ניתן להתאים אישית את טקסט ההודעה ולכלול מדיה (תמונות, GIFS, סרטונים) כדי להפוך את קבלת הפנים למעניינת יותר.
+- **מטרה:** נועדה להכיר ולהוקיר תורמים בפעם הראשונה, ולעודד מעורבות מתמשכת.
+- **תזמון:** שעות פעילות וימים ספציפיים בשבוע ניתנים להגדרה.
 
 ## הודעות סיכום מתוזמנות
 
