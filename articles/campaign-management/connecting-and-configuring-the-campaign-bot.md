@@ -67,9 +67,10 @@ Once the bot is connected to the campaign group, enter the edit screen to config
 
 ### Campaign Milestone
 
-In this tab, you can configure the bot to send a message when a specific partial goal is reached (e.g., 25% of the target).
+In this tab, you can configure the bot to send a message when a specific partial goal is reached (e.g., 25% of the target). 
 
 - **Purpose:** This alert is designed to mark progress and inject energy into the group.
+- **Customization:** You can now fully customize the message text, including dynamic variables for campaign progress and goals.
 
 ## Disabling Alerts
 
@@ -82,7 +83,8 @@ If a specific alert is not required, you can disable it by clicking the toggle b
 
 This is one of the central features of the system. You can configure an encouraging message to be sent whenever a donation exceeds a specific amount (e.g., 500 NIS).
 
-- **Customization:** You can edit the text of the messages.
+- **Customization:** You can edit the text of the messages, and now include dynamic variables like donor name, donation amount, and campaign progress.
+- **Target Audience:** You can choose for these messages to be sent to the **donors themselves** (if contactable via WhatsApp) or to the **ambassador group** to celebrate the achievement, or both.
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
 - **Timing:** You can define the bot's operating hours.
 
@@ -169,6 +171,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 - בטאב זה ניתן להגדיר שהבוט ישלח הודעה כאשר מגיעים ליעד חלקי שנקבע מראש (לדוגמה: 25% מהיעד).
 - ההתראה נועדה לציין התקדמות ולהכניס אנרגיה לקבוצה.
+- **התאמה אישית:** ניתן כעת להתאים באופן מלא את נוסח ההודעה, כולל משתנים דינמיים להתקדמות ויעדי הקמפיין.
 
 ## כיבוי התראה
 
@@ -179,9 +182,10 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 - זהו אחד הטאבים המרכזיים במערכת.
 - ניתן להגדיר שליחת הודעת עידוד כאשר מתקבלת תרומה מעל סכום שנבחר (לדוגמה: 500 ש"ח).
-- ניתן לערוך את נוסח ההודעות.
-- קיימות מספר הודעות שנשלחות במחזוריות.
-- ניתן לקבוע את זמני ושעות פעילות הבוט.
+- **התאמה אישית:** ניתן לערוך את נוסח ההודעות, וכעת לכלול משתנים דינמיים כמו שם התורם, סכום התרומה והתקדמות הקמפיין.
+- **קהל יעד:** ניתן לבחור שהודעות אלו יישלחו **לתורמים עצמם** (אם ניתנים ליצירת קשר בוואטסאפ) ו/או **לקבוצת השגרירים** כדי לחגוג את ההישג, או לשניהם.
+- **מגוון:** קיימות מספר הודעות שנשלחות במחזוריות.
+- **תזמון:** ניתן לקבוע את זמני ושעות פעילות הבוט.
 
 ## הודעות סיכום מתוזמנות
 
