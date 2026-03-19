@@ -63,13 +63,23 @@ Click on the **'Connect Bot to WhatsApp'** tab. The following screen will appear
 
 ## 6. Editing the Bot and Customizing Campaign Alerts
 
-Once the bot is connected to the campaign group, enter the edit screen to configure which alerts and automated messages will be active during the campaign.
+Once the bot is connected, enter the edit screen to configure which automated messages will be active and for which WhatsApp groups. You now have granular control over message delivery, allowing you to tailor communications to specific groups and define bot operating hours per group.
 
 ### Campaign Milestone
 
 In this tab, you can configure the bot to send a message when a specific partial goal is reached (e.g., 25% of the target).
 
 - **Purpose:** This alert is designed to mark progress and inject energy into the group.
+
+### Campaign Goal Hit (New!)
+
+Configure an automated alert to be sent specifically when the overall campaign target (not just a partial milestone) is reached. This is a significant celebratory moment for your campaign.
+
+### Granular Group Control & Bot Operating Hours
+
+For each alert type (e.g., Campaign Milestone, Donation Appreciation), you can now:
+-   Select the **specific WhatsApp groups** that will receive this alert.
+-   Define **Bot Operating Hours per Group**: Set specific times and days when messages of this type should be active for each selected group, reducing message fatigue and ensuring relevance.
 
 ## Disabling Alerts
 
@@ -84,7 +94,7 @@ This is one of the central features of the system. You can configure an encourag
 
 - **Customization:** You can edit the text of the messages.
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
-- **Timing:** You can define the bot's operating hours.
+- **Timing:** Define the bot's operating hours, now with the option to set them per group as described above.
 
 ## Scheduled Summary Messages
 
@@ -163,12 +173,22 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 ## 6. עריכת הבוט והתאמת ההתראות לקמפיין
 
-לאחר חיבור הבוט לקבוצת הקמפיין, יש להיכנס למסך העריכה ולהחליט אילו התראות והודעות אוטומטיות יפעלו במהלך הקמפיין.
+לאחר חיבור הבוט, יש להיכנס למסך העריכה ולהחליט אילו הודעות אוטומטיות יפעלו, ולאילו קבוצות וואטסאפ. כעת יש לך שליטה פרטנית על שליחת ההודעות, המאפשרת לך להתאים תקשורת לקבוצות ספציפיות ולהגדיר שעות פעילות לבוט עבור כל קבוצה בנפרד.
 
 ### אבן דרך לקמפיין
 
 - בטאב זה ניתן להגדיר שהבוט ישלח הודעה כאשר מגיעים ליעד חלקי שנקבע מראש (לדוגמה: 25% מהיעד).
 - ההתראה נועדה לציין התקדמות ולהכניס אנרגיה לקבוצה.
+
+### יעד קמפיין הושג (חדש!)
+
+הגדר התראה אוטומטית שתשלח במיוחד כאשר היעד הכולל של הקמפיין (ולא רק אבן דרך חלקית) הושג. זהו רגע חגיגי ומשמעותי עבור הקמפיין שלך.
+
+### שליטה פרטנית לקבוצות ושעות פעילות לבוט
+
+עבור כל סוג התראה (לדוגמה: אבן דרך לקמפיין, פרגון על תרומה), תוכל כעת:
+-   לבחור את **קבוצות הוואטסאפ הספציפיות** שיקבלו התראה זו.
+-   להגדיר **שעות פעילות לבוט עבור כל קבוצה**: לקבוע זמנים וימים ספציפיים שבהם הודעות מסוג זה יהיו פעילות עבור כל קבוצה שנבחרה, מה שמפחית עומס הודעות ומבטיח רלוונטיות.
 
 ## כיבוי התראה
 
@@ -181,7 +201,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - ניתן להגדיר שליחת הודעת עידוד כאשר מתקבלת תרומה מעל סכום שנבחר (לדוגמה: 500 ש"ח).
 - ניתן לערוך את נוסח ההודעות.
 - קיימות מספר הודעות שנשלחות במחזוריות.
-- ניתן לקבוע את זמני ושעות פעילות הבוט.
+- ניתן לקבוע את זמני ושעות פעילות הבוט, וכעת גם עם האפשרות להגדיר אותם עבור כל קבוצה בנפרד כמתואר לעיל.
 
 ## הודעות סיכום מתוזמנות
 

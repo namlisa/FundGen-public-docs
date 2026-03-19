@@ -35,15 +35,35 @@ To the left of each ambassador in the list, three icons appear:
 - **Admin Permissions:** Click the **figure icon with a plus sign (+)** to grant administrative permissions. *(The button will turn green when the action is complete).*
 - **Team Leader Permissions:** Click the **star icon** to grant Team Leader permissions. *(The button will turn green when the action is complete).*
 
-## **Assigning a Team**
+## Assigning Ambassadors to a Team
 
-Once Team Leader permissions have been granted to the selected ambassadors, you can assign specific ambassadors for them to manage.
+Once Team Leader permissions have been granted to the selected ambassadors, you can assign specific ambassadors for them to manage. This allows team leaders to view and manage the contacts and activities of their assigned team members.
 
 **How to assign ambassadors to a team:**
 
 1.  Select the relevant ambassadors from the list by checking their boxes.
 2.  Click the **Add to Team** button.
 3.  Select the desired Team Name from the options.
+
+## Assigning Contacts to Ambassadors or Teams (New!)
+
+Admins now have advanced options to assign contacts directly to individual ambassadors or entire teams. This significantly streamlines contact distribution and management.
+
+**Methods for Assigning Contacts:**
+
+1.  **Bulk Assignment to Selected Ambassadors:**
+    *   Navigate to the **Contacts** menu, then select the **Potential Donors** tab.
+    *   Select multiple contacts from the list by checking their boxes.
+    *   Click the **"Assign Contacts"** button (or similar bulk action button).
+    *   Choose the individual ambassador(s) or team(s) to whom you wish to assign these contacts.
+    *   Confirm the assignment. The selected contacts will now appear in the assigned ambassador's app.
+
+2.  **Assignment Based on Criteria (e.g., Tags, Source):**
+    *   Within the **Potential Donors** tab, use the filter options to narrow down contacts based on specific criteria (e.g., contacts with a particular tag, or from a certain uploaded list).
+    *   After filtering, select all relevant contacts (or a subset).
+    *   Click the **"Assign Contacts"** button.
+    *   Choose the target ambassador(s) or team(s).
+    *   Confirm the assignment. This allows for targeted distribution of leads.
 
 ---
 
@@ -79,12 +99,32 @@ Once Team Leader permissions have been granted to the selected ambassadors, you 
 - **הרשאת ניהול:** לחיצה על **אייקון דמות עם סימן פלוס (+)** מעניקה לשגריר הרשאות ניהול. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 - **הרשאת ראש צוות:** לחיצה על **אייקון כוכב** מעניקה לשגריר הרשאת ראש צוות. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 
-## שיוך צוות
+## שיוך שגרירים לצוות
 
-לאחר שניתנה הרשאת ראש צוות לשגרירים הרצויים, ניתן לשייך לכל ראש צוות שגרירים ספציפיים שהוא יהיה אחראי עליהם.
+לאחר שניתנה הרשאת ראש צוות לשגרירים הרצויים, ניתן לשייך לכל ראש צוות שגרירים ספציפיים שהוא יהיה אחראי עליהם. פעולה זו מאפשרת לראשי צוותים לצפות ולנהל את אנשי הקשר והפעילויות של חברי הצוות ששויכו אליהם.
 
 **כיצד לשייך שגרירים לצוות:**
 
 1.  סמנו את השגרירים הרלוונטיים מהרשימה.
 2.  לחצו על כפתור **הוספת צוות**.
 3.  בחרו את שם הצוות הרצוי.
+
+## שיוך אנשי קשר לשגרירים או לצוותים (חדש!)
+
+למנהלים יש כעת אפשרויות מתקדמות לשיוך אנשי קשר ישירות לשגרירים בודדים או לצוותים שלמים. זה מייעל באופן משמעותי את חלוקת אנשי הקשר וניהולם.
+
+**שיטות לשיוך אנשי קשר:**
+
+1.  **שיוך בכמות גדולה לשגרירים נבחרים:**
+    *   נווטו לתפריט **אנשי קשר**, ולאחר מכן בחרו בלשונית **תורמים פוטנציאליים**.
+    *   סמנו מספר אנשי קשר מהרשימה על ידי סימון התיבות שלידם.
+    *   לחצו על כפתור **"שיוך אנשי קשר"** (או כפתור פעולה דומה).
+    *   בחרו את השגריר/ים או הצוות/ים אליהם תרצו לשייך את אנשי הקשר.
+    *   אשרו את השיוך. אנשי הקשר שנבחרו יופיעו כעת באפליקציה של השגריר/ים המשויך/ים.
+
+2.  **שיוך על בסיס קריטריונים (לדוגמה: תגיות, מקור):**
+    *   בתוך לשונית **תורמים פוטנציאליים**, השתמשו באפשרויות הסינון כדי לצמצם את אנשי הקשר על בסיס קריטריונים ספציפיים (לדוגמה: אנשי קשר עם תגית מסוימת, או מרשימה שהועלתה).
+    *   לאחר הסינון, סמנו את כל אנשי הקשר הרלוונטיים (או קבוצת משנה).
+    *   לחצו על כפתור **"שיוך אנשי קשר"**.
+    *   בחרו את השגריר/ים או הצוות/ים הרצויים.
+    *   אשרו את השיוך. זה מאפשר חלוקה ממוקדת של לידים.

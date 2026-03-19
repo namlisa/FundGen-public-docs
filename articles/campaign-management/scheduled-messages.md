@@ -33,8 +33,9 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 *   **Donation Trigger:** Sends an automatic appreciation message to a dedicated WhatsApp group when a donation above a pre-defined minimum is received.
     *   **When configuring this message, you must set:**
         *   Minimum donation amount to trigger the message.
-        *   Date range and operating hours for the message.
+        *   Date range and operating hours for the message. Note: Bot operating hours can now be configured per group for specific message types via the Bot Configuration screen.
 *   **Campaign Milestone:** Sends an update when the campaign reaches a specific fundraising amount or number of donations.
+*   **Campaign Goal Hit (New!):** An automated alert specifically for when the overall campaign target (not just a partial milestone) is reached.
 *   **Hot Streak:** Notifies about a period of high donation activity or a series of quick donations.
 *   **Goal Milestone:** Alerts when a specific fundraising goal or target is achieved.
 *   **First Donation:** Celebrates the first donation received for the campaign.
@@ -80,8 +81,9 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 *   **טריגר תרומה:** שולח הודעת פרגון אוטומטית לקבוצת WhatsApp ייעודית בכל קבלת תרומה מעל סכום מינימלי שהוגדר מראש.
     *   **בהגדרת הודעה זו יש לקבוע:**
         *   סכום תרומה מינימלי להפעלת ההודעה.
-        *   טווח תאריכים ושעות לפעילות ההודעה.
+        *   טווח תאריכים ושעות לפעילות ההודעה. הערה: שעות פעילות לבוט ניתנות כעת להגדרה פר-קבוצה עבור סוגי הודעות ספציפיים דרך מסך הגדרות הבוט.
 *   **אבן דרך לקמפיין:** שולח עדכון כאשר הקמפיין מגיע לסכום גיוס ספציפי או למספר תרומות מסוים.
+*   **יעד קמפיין הושג (חדש!):** התראה אוטומטית במיוחד כאשר היעד הכולל של הקמפיין (ולא רק אבן דרך חלקית) הושג.
 *   **רצף חם:** מודיע על תקופה של פעילות תרומות גבוהה או סדרת תרומות מהירות.
 *   **אבן דרך ליעד:** מתריע כאשר יעד גיוס כספים ספציפי מושג.
 *   **תרומה ראשונה:** חוגג את התרומה הראשונה שהתקבלה לקמפיין.
