@@ -59,6 +59,25 @@ Follow these steps to locate the correct key in your Stripe Dashboard:
 
 Our team will securely link your account and notify you once Tap to Pay is active.
 
+## Using Tap to Pay as an Ambassador
+
+Once your campaign admin has connected the Stripe account, you can start accepting in-person contactless donations directly through the FundGen Ambassador App.
+
+**Steps to process an in-person donation:**
+
+1.  From the app, navigate to the contact's profile whom you wish to collect a donation from.
+2.  Tap the **+** icon (Add Activity) and select **Log Donation**.
+3.  Enter the donation amount and any relevant notes.
+4.  Instead of just logging it, you will now see an option to **"Tap to Pay"** or **"Process with Tap to Pay"**. Tap this option.
+5.  Follow the on-screen prompts to have the donor tap their contactless card or mobile wallet on your phone.
+6.  Once the payment is successful, the donation will be immediately logged in the system under the contact's profile and count towards your goal.
+7.  The contact's status will automatically update to "Donated".
+
+**Benefits:**
+*   **Instant Processing:** Donations are processed and recorded in real-time.
+*   **Convenience:** Accept payments anywhere, anytime, without external card readers.
+*   **Seamless Tracking:** All TTP donations are automatically linked to the contact and your personal fundraising goal.
+
 ---
 
 # כיצד לחבר את חשבון ה-Stripe שלך לתשלום בנגיעה (Tap to Pay)
@@ -113,3 +132,22 @@ Our team will securely link your account and notify you once Tap to Pay is activ
 - **נושא:** שילוב מפתח Stripe - [שם החברה שלך]
 
 הצוות שלנו יקשר את חשבונך בצורה מאובטחת ויודיע לך ברגע שתשלום בנגיעה (Tap to Pay) יהיה פעיל.
+
+## שימוש ב-Tap to Pay כשגריר
+
+לאחר שמנהל הקמפיין שלכם חיבר את חשבון ה-Stripe, תוכלו להתחיל לקבל תרומות ללא מגע באופן אישי ישירות דרך אפליקציית FundGen Ambassador.
+
+**שלבים לביצוע תרומה אישית:**
+
+1.  באפליקציה, נווטו לפרופיל איש הקשר שממנו תרצו לגבות תרומה.
+2.  לחצו על אייקון ה-**+** (הוסף פעילות) ובחרו **"תיעוד תרומה"**.
+3.  הזינו את סכום התרומה וכל הערה רלוונטית.
+4.  במקום רק לתעד את התרומה, כעת תראו אפשרות **"הקש לתשלום"** או **"בצע תשלום בנגיעה"**. לחצו על אפשרות זו.
+5.  עקבו אחר ההנחיות שעל המסך כדי שהתורם יקיש את כרטיס האשראי ללא מגע או הארנק הדיגיטלי שלו על הטלפון שלכם.
+6.  לאחר שהתשלום הושלם בהצלחה, התרומה תתועד באופן מיידי במערכת תחת פרופיל איש הקשר ותיספר ליעד שלכם.
+7.  סטטוס איש הקשר יתעדכן אוטומטית ל"תרם".
+
+**יתרונות:**
+*   **עיבוד מיידי:** תרומות מעובדות ומתועדות בזמן אמת.
+*   **נוחות:** קבלו תשלומים בכל מקום ובכל זמן, ללא צורך בקוראי כרטיסים חיצוניים.
+*   **מעקב חלק:** כל התרומות שבוצעו באמצעות TTP מקושרות אוטומטית לאיש הקשר וליעד הגיוס האישי שלכם.
