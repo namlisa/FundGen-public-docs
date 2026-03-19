@@ -30,11 +30,15 @@ collection_he: "ניהול הקמפיין"
 - Under **Messages**, click on **Scheduled Messages**.
 - This screen allows you to manage and configure bots and automated messages.
 
-## 4. Connecting the Admin to the Bot
+## 4. Connecting the Bot to WhatsApp
 
-After creating the bot, you must connect it to WhatsApp. **Recommendation:** We highly recommend that the connection be performed by a campaign manager or coordinator using their personal WhatsApp account.
+After creating the bot and initiating the campaign setup, the bot is now **automatically assigned** to the Ambassador who initiated the campaign setup. This streamlines the process, ensuring the bot's messages appear from a familiar contact without manual intervention for the initiating ambassador.
 
-**Why is it important to connect the manager personally?**
+However, if you are a different campaign manager or coordinator, or wish to connect the bot under a different personal WhatsApp account, you can still do so manually.
+
+**Recommendation:** We highly recommend that the bot messages come from a campaign manager or coordinator using their personal WhatsApp account.
+
+**Why is it important for bot messages to come from a personal account?**
 
 - **Human Touch:** Messages feel personal rather than like a "robotic system."
 - **Authenticity:** It creates a natural and authentic connection within the group.
@@ -84,7 +88,7 @@ This is one of the central features of the system. You can configure an encourag
 
 - **Customization:** You can edit the text of the messages.
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
-- **Timing:** You can define the bot's operating hours.
+- **Timing:** You can define the bot's operating hours **and specific days of the week** for these messages to be active.
 
 ## Scheduled Summary Messages
 
@@ -95,7 +99,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - **Donation Stats**
 - And more...
 
-![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c9647c4c73f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
+![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c9647c4f3f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
 
 ---
 
@@ -126,19 +130,21 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 במסך זה מתבצע ניהול והגדרה של בוטים והודעות אוטומטיות.
 
-## 4. חיבור עצמי של המנהל לבוט
+## 4. חיבור הבוט לוואטסאפ
 
-לאחר יצירת הבוט, יש לבצע חיבור לוואטסאפ.
+לאחר יצירת הבוט ותחילת הגדרת הקמפיין, הבוט **משויך אוטומטית** לשגריר שיזם את הקמת הקמפיין. זה מייעל את התהליך, ומוודא שהודעות הבוט יגיעו מאדם מוכר ללא צורך בהתערבות ידנית מצד השגריר המקים.
 
-מומלץ שהחיבור יתבצע על ידי מנהל או רכז מתוך העמותה, כך שהבוט יהיה מחובר על שמו האישי.
+עם זאת, אם אתם מנהלי קמפיין או רכזים אחרים, או אם ברצונכם לחבר את הבוט תחת חשבון וואטסאפ אישי אחר, עדיין תוכלו לעשות זאת באופן ידני.
 
-## למה חשוב לחבר את המנהל עצמו?
+**המלצה:** אנו ממליצים בחום שהודעות הבוט יישלחו על ידי מנהל או רכז קמפיין המשתמש בחשבון הוואטסאפ האישי שלו.
 
-- ההודעות מרגישות אנושיות ולא “מערכת אוטומטית”
-- נוצר חיבור טבעי ואותנטי יותר בקבוצה
-- זה מכניס חיות ומוטיבציה לקמפיין
-- המשתתפים מגיבים טוב יותר כשזה מגיע ממישהו מתוך הארגון
-- זה מסייע להניע את כולם לגייס יותר ולהיות פעילים
+**למה חשוב שהודעות הבוט יגיעו מחשבון אישי?**
+
+- ההודעות מרגישות אנושיות ולא “מערכת אוטומטית”.
+- נוצר חיבור טבעי ואותנטי יותר בקבוצה.
+- זה מכניס חיות ומוטיבציה לקמפיין.
+- המשתתפים מגיבים טוב יותר כשזה מגיע ממישהו מתוך הארגון.
+- זה מסייע להניע את כולם לגייס יותר ולהיות פעילים.
 
 כאשר המסרים יוצאים מטעם אדם אמיתי מתוך העמותה - ההשפעה שלהם חזקה יותר.
 
@@ -181,7 +187,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - ניתן להגדיר שליחת הודעת עידוד כאשר מתקבלת תרומה מעל סכום שנבחר (לדוגמה: 500 ש"ח).
 - ניתן לערוך את נוסח ההודעות.
 - קיימות מספר הודעות שנשלחות במחזוריות.
-- ניתן לקבוע את זמני ושעות פעילות הבוט.
+- ניתן לקבוע את זמני ושעות פעילות הבוט **ואף ימים ספציפיים בשבוע** עבור הודעות אלו.
 
 ## הודעות סיכום מתוזמנות
 

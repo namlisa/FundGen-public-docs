@@ -30,6 +30,12 @@ collection_he: "ניהול הקמפיין"
 
 Scheduled messages in FundGen fall into different notification categories, including Instant Notifications, Scheduled Summary Messages, and Timed Notifications. Here are the available types:
 
+*   **Ambassador Welcome Message:** Automatically sends a customizable welcome message to new ambassadors upon their registration, providing onboarding instructions and immediate engagement.
+*   **Scheduled Call (to Ambassadors):** Schedules a WhatsApp message reminder for ambassadors to make an important call.
+*   **Campaign Start Reminder:** Sends an automated message to all ambassadors at the beginning of a campaign to boost awareness and drive initial efforts.
+*   **Campaign End Reminder:** Sends an automated message to all ambassadors as a final countdown to the campaign's closing, encouraging last-minute efforts.
+*   **Personal Goal Achievement Notification:** Notifies individual ambassadors when they hit a personal fundraising milestone, celebrating their progress.
+*   **Team Goal Achievement Notification:** Notifies team leaders and their team members when a team fundraising milestone is reached.
 *   **Donation Trigger:** Sends an automatic appreciation message to a dedicated WhatsApp group when a donation above a pre-defined minimum is received.
     *   **When configuring this message, you must set:**
         *   Minimum donation amount to trigger the message.
@@ -77,6 +83,12 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 
 הודעות מתוזמנות ב-FundGen נחלקות לקטגוריות התראות שונות, הכוללות התראות מיידיות, הודעות סיכום מתוזמנות והתראות בזמן קבוע. להלן הסוגים הזמינים:
 
+*   **הודעת ברוכים הבאים לשגריר:** שולח אוטומטית הודעת ברוכים הבאים ניתנת להתאמה לשגרירים חדשים עם רישומם, מספקת הוראות הצטרפות ומעורבות מיידית.
+*   **שיחה מתוזמנת (לשגרירים):** מתזמן תזכורת בוואטסאפ לשגרירים לבצע שיחה חשובה.
+*   **תזכורת תחילת קמפיין:** שולח הודעה אוטומטית לכל השגרירים בתחילת קמפיין כדי להגביר מודעות ולעודד מאמצים ראשוניים.
+*   **תזכורת סיום קמפיין:** שולח הודעה אוטומטית לכל השגרירים כספירה לאחור אחרונה לסיום הקמפיין, המעודדת מאמצים של הרגע האחרון.
+*   **התראת השגת יעד אישי:** מודיע לשגרירים בודדים כשהם מגיעים לאבן דרך אישית בגיוס כספים, וחוגג את התקדמותם.
+*   **התראת השגת יעד צוותי:** מודיע לראשי צוותים ולחברי הצוות שלהם כשאבן דרך בגיוס כספים צוותי מושגת.
 *   **טריגר תרומה:** שולח הודעת פרגון אוטומטית לקבוצת WhatsApp ייעודית בכל קבלת תרומה מעל סכום מינימלי שהוגדר מראש.
     *   **בהגדרת הודעה זו יש לקבוע:**
         *   סכום תרומה מינימלי להפעלת ההודעה.
