@@ -1,15 +1,15 @@
 ---
 intercom_article_id: "13741782"
-title_en: "Connecting and Configuring the Campaign Bot"
-title_he: "חיבור והגדרת בוט לקבוצת קמפיין"
+title_en: "Connecting and Configuring a WhatsApp Bot Profile"
+title_he: "חיבור והגדרת פרופיל בוט לוואטסאפ"
 state: "published"
 collection: "Campaign Management"
 collection_he: "ניהול הקמפיין"
 ---
 
-# Connecting and Configuring the Campaign Bot
+# Connecting and Configuring a WhatsApp Bot Profile
 
-# Connecting and Configuring the WhatsApp Bot
+This article guides you through connecting a specific WhatsApp bot profile to a WhatsApp number and configuring its automated messages. For information on creating and managing multiple bot profiles, please refer to our article on [Managing WhatsApp Bot Profiles](/articles/campaign-management/managing-whatsapp-bot-profiles.md).
 
 ## 1. Accessing the Admin Interface
 
@@ -24,82 +24,85 @@ collection_he: "ניהול הקמפיין"
   2. Select **Hebrew**.
   3. The interface will automatically update.
 
-## 3. Accessing Scheduled Messages
+## 3. Accessing WhatsApp Bot Profiles
 
 - In the main sidebar on the right, navigate to the **Messages** category.
 - Under **Messages**, click on **Scheduled Messages**.
-- This screen allows you to manage and configure bots and automated messages.
+- From the Scheduled Messages screen, select the **WhatsApp Bots** tab.
+- On this screen, you can manage your existing bot profiles. Select the specific bot profile you wish to configure.
 
-## 4. Connecting the Admin to the Bot
+## 4. Connecting a Bot Profile to WhatsApp
 
-After creating the bot, you must connect it to WhatsApp. **Recommendation:** We highly recommend that the connection be performed by a campaign manager or coordinator using their personal WhatsApp account.
+After creating a new bot profile (or selecting an existing one), you must connect it to a WhatsApp number. **Recommendation:** We highly recommend that *each* bot connection be performed by a campaign manager or coordinator using their personal WhatsApp account. This allows you to assign different WhatsApp numbers to different bot profiles, enhancing personalization within various ambassador groups or donor segments.
 
 **Why is it important to connect the manager personally?**
 
-- **Human Touch:** Messages feel personal rather than like a "robotic system."
-- **Authenticity:** It creates a natural and authentic connection within the group.
-- **Motivation:** It injects energy and motivation into the campaign.
-- **Engagement:** Participants respond better when messages come from a known team member.
-- **Impact:** When messages are sent by a real person from the organization, their influence is significantly stronger.
+-   **Human Touch:** Messages feel personal rather than like a "robotic system."
+-   **Authenticity:** It creates a natural and authentic connection within the group.
+-   **Motivation:** It injects energy and motivation into the campaign.
+-   **Engagement:** Participants respond better when messages come from a known team member.
+-   **Impact:** When messages are sent by a real person from the organization, their influence is significantly stronger.
 
 ## 5. Connection Method
 
-Click on the **'Connect Bot to WhatsApp'** tab. The following screen will appear:
+After selecting a specific bot profile, click on its **'Connect Bot to WhatsApp'** tab. The following screen will appear:
 
 **Option A: Working from a Computer**
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070081913/755631c1b0ba3c8c5440166a8030/image.png?expires=1773837900&signature=bb857e06315edb867de5ffd7a7c5ceea0d9d1a3db41486b31af3607a6d2fa6fc&req=diAgFsl2nIheWvMW1HO4zSu7QdJ0ItkS5XMdSXTe%2BfbIQfmLd9UOvmoRjlbD%0ABiqR%0A)
 
-1. Scan the **QR code** using your mobile phone (via WhatsApp > Linked Devices).
-2. The connection will be established automatically.
-3. The bot will be connected under the name of the user who scanned the code.
+1.  Scan the **QR code** using your mobile phone (via WhatsApp > Linked Devices).
+2.  The connection will be established automatically.
+3.  The selected bot profile will be connected under the name of the user who scanned the code.
 
 **Option B: Working from a Mobile Phone (or connecting a different manager)**
 
-1. At the bottom of the screen, select the option: **"Link with phone number instead"**.
-2. You will receive a one-time code.
-3. Enter the code on the target device.
-4. The bot will connect under that user's name.
+1.  At the bottom of the screen, select the option: **"Link with phone number instead"**.
+2.  You will receive a one-time code.
+3.  Enter the code on the target device.
+4.  The selected bot profile will connect under that user's name.
 
-## 6. Editing the Bot and Customizing Campaign Alerts
+## 6. Editing the Bot Profile and Customizing Automated Messages
 
-Once the bot is connected to the campaign group, enter the edit screen to configure which alerts and automated messages will be active during the campaign.
+Once a specific bot profile is connected to its assigned WhatsApp group, enter its edit screen to configure which alerts and automated messages will be active *for that particular bot and group*.
 
 ### Campaign Milestone
 
-In this tab, you can configure the bot to send a message when a specific partial goal is reached (e.g., 25% of the target).
+Within the settings for this bot profile, you can configure it to send a message when a specific partial goal is reached (e.g., 25% of the target).
 
-- **Purpose:** This alert is designed to mark progress and inject energy into the group.
+-   **Purpose:** This alert is designed to mark progress and inject energy into the group.
 
 ## Disabling Alerts
 
-If a specific alert is not required, you can disable it by clicking the toggle button on the right.
+If a specific alert is not required for this bot profile, you can disable it by clicking the toggle button on the right.
 
-- **Blue:** Alert is Active.
-- **Gray:** Alert is Disabled.
+-   **Blue:** Alert is Active.
+-   **Gray:** Alert is Disabled.
 
 ## Donation Appreciation (High Value Donations)
 
-This is one of the central features of the system. You can configure an encouraging message to be sent whenever a donation exceeds a specific amount (e.g., 500 NIS).
+This is one of the central features of the system. For this bot profile, you can configure an encouraging message to be sent whenever a donation exceeds a specific amount (e.g., 500 NIS).
 
-- **Customization:** You can edit the text of the messages.
-- **Variety:** There are several messages that are sent in a cycle to avoid repetition.
-- **Timing:** You can define the bot's operating hours.
+-   **Customization:** You can edit the text of the messages.
+-   **Variety:** There are several messages that are sent in a cycle to avoid repetition.
+-   **Timing:** You can define the bot's operating hours.
 
 ## Scheduled Summary Messages
 
-Under the **Scheduled Summary Messages** section, all the alerts listed below it are aggregated and sent together in a single, concentrated message. These alerts generate high motivation and encourage activity within the group. Examples include:
+Under the **Scheduled Summary Messages** section for this bot profile, all the alerts listed below it are aggregated and sent together in a single, concentrated message. These alerts generate high motivation and encourage activity within the group. Examples include:
 
-- **First Donation**
-- **Hot Streak**
-- **Donation Stats**
-- And more...
+-   **First Donation**
+-   **Hot Streak**
+-   **Donation Stats**
+-   And more...
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c9647c4c73f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
 
 ---
 
-# חיבור והגדרת בוט לקבוצת קמפיין
+# חיבור והגדרת פרופיל בוט לוואטסאפ
+
+מאמר זה מנחה אתכם בחיבור פרופיל בוט וואטסאפ ספציפי למספר וואטסאפ ובהגדרת ההודעות האוטומטיות שלו. למידע על יצירה וניהול של מספר פרופילי בוט, עיין במאמר שלנו על [ניהול פרופילי בוט לוואטסאפ](/articles/campaign-management/managing-whatsapp-bot-profiles.md).
 
 ## **לפני שמתחילים: ניתן לצפות במדריך מצולם.**
 
@@ -115,83 +118,83 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 ברירת המחדל של המערכת היא אנגלית.
 כדי לעבוד בעברית:
 
-1. בסרגל הכלים העליון יש ללחוץ על **CHANGE LANGUAGE**
-2. לבחור **Hebrew**
-3. הממשק יתעדכן אוטומטית לעברית
+1.  בסרגל הכלים העליון יש ללחוץ על **CHANGE LANGUAGE**
+2.  לבחור **Hebrew**
+3.  הממשק יתעדכן אוטומטית לעברית
 
-## 3. כניסה למסך הודעות מתוזמנות
+## 3. כניסה לפרופילי בוט לוואטסאפ
 
-1. בסרגל הכלים הראשי בצד ימין יש להיכנס לקטגוריית **הודעות**
-2. תחת קטגוריית הודעות יש ללחוץ על **הודעות מתוזמנות**
+1.  בסרגל הכלים הראשי בצד ימין יש להיכנס לקטגוריית **הודעות**
+2.  תחת קטגוריית הודעות יש ללחוץ על **הודעות מתוזמנות**
+3.  במסך הודעות מתוזמנות, בחרו בלשונית **בוטים לוואטסאפ**.
+4.  במסך זה תוכלו לנהל את פרופילי הבוט הקיימים שלכם. בחרו את פרופיל הבוט הספציפי שברצונכם להגדיר.
 
-במסך זה מתבצע ניהול והגדרה של בוטים והודעות אוטומטיות.
+## 4. חיבור פרופיל בוט לוואטסאפ
 
-## 4. חיבור עצמי של המנהל לבוט
-
-לאחר יצירת הבוט, יש לבצע חיבור לוואטסאפ.
-
-מומלץ שהחיבור יתבצע על ידי מנהל או רכז מתוך העמותה, כך שהבוט יהיה מחובר על שמו האישי.
+לאחר יצירת פרופיל בוט חדש (או בחירת קיים), יש לבצע חיבור לוואטסאפ. **מומלץ** שהחיבור של *כל* בוט יתבצע על ידי מנהל או רכז מתוך העמותה, כך שהבוט יהיה מחובר על שמו האישי. זה מאפשר לכם להקצות מספרי וואטסאפ שונים לפרופילי בוט שונים, מה שמשפר את ההתאמה האישית בתוך קבוצות שגרירים או פלחי תורמים שונים.
 
 ## למה חשוב לחבר את המנהל עצמו?
 
-- ההודעות מרגישות אנושיות ולא “מערכת אוטומטית”
-- נוצר חיבור טבעי ואותנטי יותר בקבוצה
-- זה מכניס חיות ומוטיבציה לקמפיין
-- המשתתפים מגיבים טוב יותר כשזה מגיע ממישהו מתוך הארגון
-- זה מסייע להניע את כולם לגייס יותר ולהיות פעילים
+-   ההודעות מרגישות אנושיות ולא “מערכת אוטומטית”
+-   נוצר חיבור טבעי ואותנטי יותר בקבוצה
+-   זה מכניס חיות ומוטיבציה לקמפיין
+-   המשתתפים מגיבים טוב יותר כשזה מגיע ממישהו מתוך הארגון
+-   זה מסייע להניע את כולם לגייס יותר ולהיות פעילים
 
 כאשר המסרים יוצאים מטעם אדם אמיתי מתוך העמותה - ההשפעה שלהם חזקה יותר.
 
 ## 5. אופן ההתחברות
 
-לאחר לחיצה על הטאב - 'חיבור בוט לווצאפ' יופיע המסך הבא:
+לאחר בחירת פרופיל בוט ספציפי, לחצו על הטאב - 'חיבור בוט לווצאפ' ויופיע המסך הבא:
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069749762/3a4bd10b1763d334e3e514834cb9/image.png?expires=1773837900&signature=7e1e6c6ffdae27f1eb411369ebfe269694be6c6fd2e4451c85ff533ee11546ea&req=diAhH856lIZZW%2FMW1HO4zZD2ZrXXmfvPf%2B7QpQ4AZO%2FutLyPC2%2FVzddH5sfk%0A7SDc%0A)
 
 ## אם עובדים מהמחשב:
 
-- סורקים את קוד ה-QR דרך הטלפון
-- ההתחברות מתבצעת אוטומטית
-- הבוט יתחבר על שם מי שסרק
+-   סורקים את קוד ה-QR דרך הטלפון
+-   ההתחברות מתבצעת אוטומטית
+-   פרופיל הבוט הנבחר יתחבר על שם מי שסרק
 
 ## אם עובדים מהטלפון או רוצים לחבר מנהל/רכז אחר:
 
-- בוחרים בתחתית המסך באפשרות **"השתמש בסיסמה חד-פעמית במקום"**
-- מתקבל קוד חד-פעמי
-- מזינים אותו במכשיר הרצוי
-- הבוט יתחבר על שם אותו משתמש
+-   בוחרים בתחתית המסך באפשרות **"השתמש בסיסמה חד-פעמית במקום"**
+-   מתקבל קוד חד-פעמי
+-   מזינים אותו במכשיר הרצוי
+-   פרופיל הבוט הנבחר יתחבר על שם אותו משתמש
 
-## 6. עריכת הבוט והתאמת ההתראות לקמפיין
+## 6. עריכת פרופיל הבוט והתאמת ההודעות האוטומטיות לקמפיין
 
-לאחר חיבור הבוט לקבוצת הקמפיין, יש להיכנס למסך העריכה ולהחליט אילו התראות והודעות אוטומטיות יפעלו במהלך הקמפיין.
+לאחר חיבור פרופיל בוט ספציפי לקבוצת הקמפיין המשויכת לו, יש להיכנס למסך העריכה שלו ולהחליט אילו התראות והודעות אוטומטיות יפעלו *עבור בוט וקבוצה ספציפיים אלה*.
 
 ### אבן דרך לקמפיין
 
-- בטאב זה ניתן להגדיר שהבוט ישלח הודעה כאשר מגיעים ליעד חלקי שנקבע מראש (לדוגמה: 25% מהיעד).
-- ההתראה נועדה לציין התקדמות ולהכניס אנרגיה לקבוצה.
+בתוך הגדרות פרופיל בוט זה, ניתן להגדיר שהבוט ישלח הודעה כאשר מגיעים ליעד חלקי שנקבע מראש (לדוגמה: 25% מהיעד).
+
+-   ההתראה נועדה לציין התקדמות ולהכניס אנרגיה לקבוצה.
 
 ## כיבוי התראה
 
-- אם אין צורך בהתראה מסוימת, ניתן לכבות אותה באמצעות לחיצה על הכפתור בצד שמאל.
-- כאשר הכפתור משתנה מתכלת לאפור — ההתראה כבויה.
+אם אין צורך בהתראה מסוימת עבור פרופיל בוט זה, ניתן לכבות אותה באמצעות לחיצה על הכפתור בצד שמאל.
+
+-   כאשר הכפתור משתנה מתכלת לאפור — ההתראה כבויה.
 
 ## פרגון על תרומה מסכום מסוים
 
-- זהו אחד הטאבים המרכזיים במערכת.
-- ניתן להגדיר שליחת הודעת עידוד כאשר מתקבלת תרומה מעל סכום שנבחר (לדוגמה: 500 ש"ח).
-- ניתן לערוך את נוסח ההודעות.
-- קיימות מספר הודעות שנשלחות במחזוריות.
-- ניתן לקבוע את זמני ושעות פעילות הבוט.
+זהו אחד הטאבים המרכזיים במערכת. עבור פרופיל בוט זה, ניתן להגדיר שליחת הודעת עידוד כאשר מתקבלת תרומה מעל סכום שנבחר (לדוגמה: 500 ש"ח).
+
+-   ניתן לערוך את נוסח ההודעות.
+-   קיימות מספר הודעות שנשלחות במחזוריות.
+-   ניתן לקבוע את זמני ושעות פעילות הבוט.
 
 ## הודעות סיכום מתוזמנות
 
-תחת הכותרת **הודעות סיכום מתוזמנות**, כל ההתראות המופיעות מתחתיה נשלחות יחד בתוך הודעה אחת מרוכזת.
+תחת הכותרת **הודעות סיכום מתוזמנות** עבור פרופיל בוט זה, כל ההתראות המופיעות מתחתיה נשלחות יחד בתוך הודעה אחת מרוכזת.
 
 התראות אלו יוצרות מוטיבציה גבוהה ומעודדות פעילות בקבוצה, לדוגמה:
 
-- **תרומה ראשונה**
-- **רצף חם**
-- **סטטיסטיקת תרומות**
-- ועוד…
+-   **תרומה ראשונה**
+-   **רצף חם**
+-   **סטטיסטיקת תרומות**
+-   ועוד…
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069739563/e2b342357015034f820a390a41c9/image.png?expires=1773837900&signature=6d3532d6b5433e8c79bbffb6e4569428110b0ffcea2afa13b2565c9c0462089a&req=diAhH859lIRZWvMW1HO4zWDZS%2BBQHPakGw14BEICrA0aSY0mKjmDGFrDvi4M%0AyG50%0A)
