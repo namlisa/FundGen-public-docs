@@ -1,3 +1,4 @@
+```markdown
 ---
 intercom_article_id: "13741782"
 title_en: "Connecting and Configuring the Campaign Bot"
@@ -30,17 +31,18 @@ collection_he: "ניהול הקמפיין"
 - Under **Messages**, click on **Scheduled Messages**.
 - This screen allows you to manage and configure bots and automated messages.
 
-## 4. Connecting the Admin to the Bot
+## 4. Connecting Ambassador WhatsApp Accounts to the Campaign Bot
 
-After creating the bot, you must connect it to WhatsApp. **Recommendation:** We highly recommend that the connection be performed by a campaign manager or coordinator using their personal WhatsApp account.
+After creating the bot, you must connect it to WhatsApp. **Recommendation:** We highly recommend that the connection be performed by any campaign manager or ambassador whose identity will be used to send messages from the system. This allows admins to send messages on their behalf using their unique WhatsApp number.
 
-**Why is it important to connect the manager personally?**
+**Why is it important to connect individual accounts?**
 
 - **Human Touch:** Messages feel personal rather than like a "robotic system."
 - **Authenticity:** It creates a natural and authentic connection within the group.
 - **Motivation:** It injects energy and motivation into the campaign.
 - **Engagement:** Participants respond better when messages come from a known team member.
 - **Impact:** When messages are sent by a real person from the organization, their influence is significantly stronger.
+- **Enables Admin-Sent Messages:** Allows campaign administrators to send personalized WhatsApp messages on behalf of the connected ambassador, fostering consistency and impact.
 
 ## 5. Connection Method
 
@@ -60,6 +62,8 @@ Click on the **'Connect Bot to WhatsApp'** tab. The following screen will appear
 2. You will receive a one-time code.
 3. Enter the code on the target device.
 4. The bot will connect under that user's name.
+
+Each ambassador whose identity will be used for sending WhatsApp messages by admins must follow these steps to connect their personal WhatsApp account. The system supports multiple connected accounts, allowing flexible message sending on behalf of different ambassadors.
 
 ## 6. Editing the Bot and Customizing Campaign Alerts
 
@@ -126,19 +130,20 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 במסך זה מתבצע ניהול והגדרה של בוטים והודעות אוטומטיות.
 
-## 4. חיבור עצמי של המנהל לבוט
+## 4. חיבור חשבונות וואטסאפ של שגרירים לבוט הקמפיין
 
 לאחר יצירת הבוט, יש לבצע חיבור לוואטסאפ.
 
-מומלץ שהחיבור יתבצע על ידי מנהל או רכז מתוך העמותה, כך שהבוט יהיה מחובר על שמו האישי.
+**המלצה:** מומלץ שהחיבור יתבצע על ידי כל מנהל קמפיין או שגריר שזהותו תשמש לשליחת הודעות מהמערכת. זה מאפשר למנהלי המערכת לשלוח הודעות בשמם באמצעות מספר הוואטסאפ הייחודי שלהם.
 
-## למה חשוב לחבר את המנהל עצמו?
+## למה חשוב לחבר חשבונות אישיים?
 
 - ההודעות מרגישות אנושיות ולא “מערכת אוטומטית”
 - נוצר חיבור טבעי ואותנטי יותר בקבוצה
 - זה מכניס חיות ומוטיבציה לקמפיין
 - המשתתפים מגיבים טוב יותר כשזה מגיע ממישהו מתוך הארגון
 - זה מסייע להניע את כולם לגייס יותר ולהיות פעילים
+- מאפשר שליחת הודעות על ידי מנהלי מערכת: מאפשר למנהלי קמפיין לשלוח הודעות וואטסאפ מותאמות אישית בשם השגריר המחובר, מה שמטפח עקביות והשפעה.
 
 כאשר המסרים יוצאים מטעם אדם אמיתי מתוך העמותה - ההשפעה שלהם חזקה יותר.
 
@@ -160,6 +165,8 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - מתקבל קוד חד-פעמי
 - מזינים אותו במכשיר הרצוי
 - הבוט יתחבר על שם אותו משתמש
+
+כל שגריר שזהותו תשמש לשליחת הודעות וואטסאפ על ידי מנהלי מערכת חייב לבצע שלבים אלו כדי לחבר את חשבון הוואטסאפ האישי שלו. המערכת תומכת במספר חשבונות מחוברים, מה שמאפשר גמישות בשליחת הודעות בשם שגרירים שונים.
 
 ## 6. עריכת הבוט והתאמת ההתראות לקמפיין
 
@@ -195,3 +202,4 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - ועוד…
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069739563/e2b342357015034f820a390a41c9/image.png?expires=1773837900&signature=6d3532d6b5433e8c79bbffb6e4569428110b0ffcea2afa13b2565c9c0462089a&req=diAhH859lIRZWvMW1HO4zWDZS%2BBQHPakGw14BEICrA0aSY0mKjmDGFrDvi4M%0AyG50%0A)
+```
