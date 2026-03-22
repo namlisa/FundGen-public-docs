@@ -66,7 +66,7 @@ Yes. You can "Unignore" a contact at any time, and it will return to your main c
 
 1.  גשו למסנן/אזור **אנשי קשר מוסתרים**. בדרך כלל תוכלו למצוא זאת בסרגל הכלים העליון או באפשרויות הסינון במסך **אנשי הקשר**.
 
-![](https://downloads.intercomcdn.com/i/o/entwkecd/2077352389/09e17d8ec65324bc16c4baa5fe26/image.png?expires=1771407000&signature=a6f2b8325c0a5831996f5d158608ce1a494d95ea21c6ec3d82c1089578f7608a&req=diAgEcp7n4JXUPMU3HP0gGJrfxr9tv87nVK%2F%2BWi0e57A6rB81aY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/entwkecd/2077352389/09e17b8ec65324bc16c4baa5fe26/image.png?expires=1771407000&signature=a6f2b8325c0a5831996f5d158608ce1a494d95ea21c6ec3d82c1089578f7608a&req=diAgEcp7n4JXUPMU3HP0gGJrfxr9tv87nVK%2F%2BWi0e57A6rB81aY%3D%0A)
 
 2.  בחרו באפשרות **ביטול התעלמות** ליד איש הקשר הרצוי.
 3.  איש הקשר יחזור להופיע במסך **אנשי הקשר** הראשי שלך.

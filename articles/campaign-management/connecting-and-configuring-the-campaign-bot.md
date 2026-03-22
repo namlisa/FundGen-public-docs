@@ -70,6 +70,7 @@ Once the bot is connected to the campaign group, enter the edit screen to config
 In this tab, you can configure the bot to send a message when a specific partial goal is reached (e.g., 25% of the target).
 
 - **Purpose:** This alert is designed to mark progress and inject energy into the group.
+- **Sender Configuration:** Admins can now select a specific ambassador to send this message, personalizing the communication.
 
 ## Disabling Alerts
 
@@ -85,6 +86,7 @@ This is one of the central features of the system. You can configure an encourag
 - **Customization:** You can edit the text of the messages.
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
 - **Timing:** You can define the bot's operating hours.
+- **Sender Configuration:** Admins can now select a specific ambassador to send this message, personalizing the communication.
 
 ## Scheduled Summary Messages
 
@@ -169,6 +171,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 
 - בטאב זה ניתן להגדיר שהבוט ישלח הודעה כאשר מגיעים ליעד חלקי שנקבע מראש (לדוגמה: 25% מהיעד).
 - ההתראה נועדה לציין התקדמות ולהכניס אנרגיה לקבוצה.
+- **הגדרת שולח:** מנהלי מערכת יכולים כעת לבחור שגריר ספציפי שישלח הודעה זו, ובכך להתאים אישית את התקשורת.
 
 ## כיבוי התראה
 
@@ -182,6 +185,7 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - ניתן לערוך את נוסח ההודעות.
 - קיימות מספר הודעות שנשלחות במחזוריות.
 - ניתן לקבוע את זמני ושעות פעילות הבוט.
+- **הגדרת שולח:** מנהלי מערכת יכולים כעת לבחור שגריר ספציפי שישלח הודעה זו, ובכך להתאים אישית את התקשורת.
 
 ## הודעות סיכום מתוזמנות
 

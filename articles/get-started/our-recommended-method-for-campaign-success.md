@@ -11,13 +11,17 @@ collection_he: "התחילו כאן"
 
 ## Step 1: Cleaning the Contact List
 
-The first thing to do is clear the noise. Go over the contact list and keep in view only those who are truly relevant to approach.
+The first thing to do is clear the noise.
+
+Go over the contact list and keep in view only those who are truly relevant to approach.
 
 - People you will not approach right now
 - Unsuitable contacts
 - Duplicates or errors
 
-Use the "Ignore" option to remove from view what disturbs your focus. A clean list = higher concentration = more results.
+Use the "Ignore" option to remove from view what disturbs your focus. These contacts will be moved to the **Hidden Contacts** filter, allowing you to easily review or restore them later.
+
+A clean list = higher concentration = more results.
 
 ## Step 2: Use the Key Tools - Take Action
 
@@ -33,7 +37,9 @@ Fast, efficient, with a personal link for tracking. You can use ready-made templ
 
 ## Step 3: Every Contact Must Have a Status
 
-This is a critical step. Every contact you approached needs to be assigned a clear status:
+This is a critical step.
+
+Every contact you approached needs to be assigned a clear status:
 
 - Contacted
 - No reply to contact
@@ -50,17 +56,27 @@ Some actions update automatically – But if something was not updated, it is im
 - Those who asked you to return to them
 - Those who promised to donate
 
-Get back to them. Do not leave people hanging. Do not rely on memory. If needed – set a reminder. Most donations are closed in follow-up, not in the first approach.
+Get back to them.
 
-Finished the Entire List? Well Done
+Do not leave people hanging.
+Do not rely on memory.
 
-You worked hard. You called. You sent messages. You documented. You followed up. Excellent. Now it is time to expand.
+If needed – set a reminder. Most donations are closed in follow-up, not in the first approach.
 
-Enter Potential Donors: At the top of the screen, you will see a globe icon. If your campaign manager uploaded hundreds or thousands of contacts there – You can import them and continue working. Thus, after you have finished your local database, You expand the circle of donors and increase the potential for success.
+## Finished the Entire List? Well Done
 
-Our Method
+You worked hard. You called. You sent messages. You documented. You followed up.
+Excellent.
 
-## Cleaning > Action > Documentation > Follow-up > Expanding Donation Circles
+Now it is time to expand.
+
+Enter Potential Donors: At the top of the screen, you will see a globe icon. If your campaign manager uploaded hundreds or thousands of contacts there – You can import them and continue working. For existing contacts, consider using the **Deep Dive Search** (AI insights) to gather more information and personalize your approach, making your outreach even more effective.
+
+Thus, after you have finished your local database, You expand the circle of donors and increase the potential for success.
+
+## Our Method
+
+Cleaning > Action > Documentation > Follow-up > Expanding Donation Circles
 
 ## This is the correct way to work.
 
@@ -82,7 +98,7 @@ Our Method
 - אנשי קשר לא מתאימים
 - כפילויות או טעויות
 
-השתמשו באפשרות **"התעלם"** כדי להסיר מהתצוגה את מה שמפריע לפוקוס.
+השתמשו באפשרות **"התעלם"** כדי להסיר מהתצוגה את מה שמפריע לפוקוס. אנשי קשר אלו יועברו למסנן **אנשי קשר מוסתרים**, מה שיאפשר לכם לסקור או לשחזר אותם בקלות בהמשך.
 
 רשימה נקייה = ריכוז גבוה יותר = יותר תוצאות.
 
@@ -152,7 +168,7 @@ Our Method
 למעלה במסך תראה אייקון של כדור רשת
 
 אם מנהל הקמפיין שלך העלה לשם מאות או אלפי אנשי קשר –
-אתה יכול לייבא אותם ולהמשיך לעבוד.
+אתה יכול לייבא אותם ולהמשיך לעבוד. עבור אנשי קשר קיימים, שקלו להשתמש בתכונת **חיפוש מעמיק** (תובנות AI) כדי לאסוף מידע נוסף ולהתאים אישית את הפנייה שלכם, ובכך להפוך את מאמצי הגיוס שלכם ליעילים אף יותר.
 
 כך, אחרי שסיימת את המאגר המקומי שלך,
 אתה מרחיב את מעגל התורמים ומגדיל את פוטנציאל ההצלחה.
