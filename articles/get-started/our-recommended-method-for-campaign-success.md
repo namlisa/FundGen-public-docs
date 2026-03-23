@@ -8,6 +8,7 @@ collection_he: "התחילו כאן"
 ---
 
 # Our Recommended Method for Campaign Success
+<!-- last synced: 2026-03-23 -->
 
 ## Step 1: Cleaning the Contact List
 
