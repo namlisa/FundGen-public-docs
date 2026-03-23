@@ -30,11 +30,11 @@ collection_he: "ניהול הקמפיין"
 
 Scheduled messages in FundGen fall into different notification categories, including Instant Notifications, Scheduled Summary Messages, and Timed Notifications. Here are the available types:
 
-*   **Donation Trigger:** Sends an automatic appreciation message to a dedicated WhatsApp group when a donation above a pre-defined minimum is received.
+*   **Donation Trigger:** Sends an automatic appreciation message to a dedicated WhatsApp group when a donation above a pre-defined minimum is received. With new enhancements, these messages are fully customizable and can be targeted to either the **donors themselves** (if contactable via WhatsApp) or to the **ambassador group** to celebrate the achievement, or both.
     *   **When configuring this message, you must set:**
         *   Minimum donation amount to trigger the message.
         *   Date range and operating hours for the message.
-*   **Campaign Milestone:** Sends an update when the campaign reaches a specific fundraising amount or number of donations.
+*   **Campaign Milestone:** Sends an update when the campaign reaches a specific fundraising amount or number of donations. These messages are now fully customizable to include dynamic variables for campaign progress and goals.
 *   **Hot Streak:** Notifies about a period of high donation activity or a series of quick donations.
 *   **Goal Milestone:** Alerts when a specific fundraising goal or target is achieved.
 *   **First Donation:** Celebrates the first donation received for the campaign.
@@ -77,11 +77,11 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 
 הודעות מתוזמנות ב-FundGen נחלקות לקטגוריות התראות שונות, הכוללות התראות מיידיות, הודעות סיכום מתוזמנות והתראות בזמן קבוע. להלן הסוגים הזמינים:
 
-*   **טריגר תרומה:** שולח הודעת פרגון אוטומטית לקבוצת WhatsApp ייעודית בכל קבלת תרומה מעל סכום מינימלי שהוגדר מראש.
+*   **טריגר תרומה:** שולח הודעת פרגון אוטומטית לקבוצת WhatsApp ייעודית בכל קבלת תרומה מעל סכום מינימלי שהוגדר מראש. עם השיפורים החדשים, הודעות אלו ניתנות להתאמה אישית מלאה ויכולות להיות ממוקדות **לתורמים עצמם** (אם ניתנים ליצירת קשר בוואטסאפ) ו/או **לקבוצת השגרירים** כדי לחגוג את ההישג, או לשניהם.
     *   **בהגדרת הודעה זו יש לקבוע:**
         *   סכום תרומה מינימלי להפעלת ההודעה.
         *   טווח תאריכים ושעות לפעילות ההודעה.
-*   **אבן דרך לקמפיין:** שולח עדכון כאשר הקמפיין מגיע לסכום גיוס ספציפי או למספר תרומות מסוים.
+*   **אבן דרך לקמפיין:** שולח עדכון כאשר הקמפיין מגיע לסכום גיוס ספציפי או למספר תרומות מסוים. הודעות אלו ניתנות כעת להתאמה אישית מלאה כדי לכלול משתנים דינמיים להתקדמות ויעדי הקמפיין.
 *   **רצף חם:** מודיע על תקופה של פעילות תרומות גבוהה או סדרת תרומות מהירות.
 *   **אבן דרך ליעד:** מתריע כאשר יעד גיוס כספים ספציפי מושג.
 *   **תרומה ראשונה:** חוגג את התרומה הראשונה שהתקבלה לקמפיין.
