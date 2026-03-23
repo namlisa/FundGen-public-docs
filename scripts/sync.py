@@ -25,6 +25,26 @@ COLLECTION_IDS = {
     "Collecting Donations": "17521373",
 }
 
+def get_default_author_id():
+    """Fetch the first admin/teammate ID from Intercom to use as author for new articles."""
+    r = requests.get(f"{BASE}/admins", headers=HEADERS)
+    if r.status_code == 200:
+        admins = r.json().get('admins', [])
+        if admins:
+            chosen = admins[0]
+            print(f"  Using author: {chosen.get('name', 'unknown')} (id={chosen['id']})")
+            return str(chosen['id'])
+    print(f"  ⚠️ Could not fetch admins: {r.status_code} {r.text[:200]}")
+    return None
+
+# Lazy-loaded author ID for new article creation
+_default_author_id = None
+def default_author_id():
+    global _default_author_id
+    if _default_author_id is None:
+        _default_author_id = get_default_author_id() or ''
+    return _default_author_id
+
 def md_to_html(md):
     """Minimal Markdown → HTML (enough for Intercom)."""
     lines = md.split('\n')
@@ -197,13 +217,11 @@ def sync_article(filepath, dry_run=False):
         translated['en'] = {
             'title': title_en,
             'body': md_to_html(body_en),
-            'author_id': None,
         }
     if title_he or body_he:
         translated['he'] = {
             'title': title_he,
             'body': md_to_html(body_he),
-            'author_id': None,
         }
 
     # Determine default locale & title
@@ -234,7 +252,12 @@ def sync_article(filepath, dry_run=False):
         else:
             print(f"  ❌ Update failed [{article_id}]: {r.status_code} {r.text[:200]}")
     else:
-        # Create
+        # Create — Intercom requires author_id
+        aid = default_author_id()
+        if not aid:
+            print(f"  ❌ Skipping create (no author_id available): {title_en or title_he}")
+            return
+        payload['author_id'] = aid
         r = requests.post(f"{BASE}/articles", headers=HEADERS, json=payload)
         if r.status_code == 200:
             new_id = r.json()['id']
