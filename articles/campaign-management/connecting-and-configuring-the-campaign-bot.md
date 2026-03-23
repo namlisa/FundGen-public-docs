@@ -85,17 +85,20 @@ This is one of the central features of the system. You can configure an encourag
 - **Customization:** You can edit the text of the messages.
 - **Variety:** There are several messages that are sent in a cycle to avoid repetition.
 - **Timing:** You can define the bot's operating hours.
+- **Target WhatsApp Group:** Select the specific WhatsApp group where these appreciation messages will be sent.
 
 ## Scheduled Summary Messages
 
-Under the **Scheduled Summary Messages** section, all the alerts listed below it are aggregated and sent together in a single, concentrated message. These alerts generate high motivation and encourage activity within the group. Examples include:
+The **Scheduled Summary Messages** section allows you to configure various automated alerts (e.g., First Donation, Hot Streak, Donation Stats) individually. For each type of scheduled message, you can now select a specific WhatsApp group where it will be sent. This provides granular control to target different groups with relevant updates. Examples include:
 
 - **First Donation**
 - **Hot Streak**
 - **Donation Stats**
 - And more...
 
-![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c9647c4c73f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
+For more detailed configuration of individual scheduled messages, see [Scheduled Messages](/articles/campaign-management/scheduled-messages.md).
+
+![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c93c47c4c73f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
 
 ---
 
@@ -182,16 +185,17 @@ Under the **Scheduled Summary Messages** section, all the alerts listed below it
 - ניתן לערוך את נוסח ההודעות.
 - קיימות מספר הודעות שנשלחות במחזוריות.
 - ניתן לקבוע את זמני ושעות פעילות הבוט.
+- **קבוצת וואטסאפ יעד:** בחרו את קבוצת הוואטסאפ הספציפית שאליה יישלחו הודעות הפרגון הללו.
 
 ## הודעות סיכום מתוזמנות
 
-תחת הכותרת **הודעות סיכום מתוזמנות**, כל ההתראות המופיעות מתחתיה נשלחות יחד בתוך הודעה אחת מרוכזת.
-
-התראות אלו יוצרות מוטיבציה גבוהה ומעודדות פעילות בקבוצה, לדוגמה:
+מקטע **הודעות סיכום מתוזמנות** מאפשר לכם להגדיר התראות אוטומטיות שונות (לדוגמה: תרומה ראשונה, רצף חם, סטטיסטיקת תרומות) באופן פרטני. כעת, עבור כל סוג של הודעה מתוזמנת, תוכלו לבחור קבוצת וואטסאפ ספציפית שאליה תישלח ההודעה. זה מעניק שליטה מדויקת יותר לניתוב עדכונים רלוונטיים לקבוצות שונות. לדוגמה:
 
 - **תרומה ראשונה**
 - **רצף חם**
 - **סטטיסטיקת תרומות**
 - ועוד…
+
+להגדרות מפורטות יותר של הודעות מתוזמנות בודדות, עיינו במאמר [הודעות מתוזמנות](/articles/campaign-management/scheduled-messages.md).
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069739563/e2b342357015034f820a390a41c9/image.png?expires=1773837900&signature=6d3532d6b5433e8c79bbffb6e4569428110b0ffcea2afa13b2565c9c0462089a&req=diAhH859lIRZWvMW1HO4zWDZS%2BBQHPakGw14BEICrA0aSY0mKjmDGFrDvi4M%0AyG50%0A)

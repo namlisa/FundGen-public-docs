@@ -24,16 +24,17 @@ collection_he: "ניהול הקמפיין"
 
 - Click the **➕ (Add)** button in the center of the screen.
 - The "Add Scheduled Message" window will open.
-- In this window, you will choose the type of scheduled message to create.
+- In this window, you will choose the type of scheduled message to create and specify its **Target WhatsApp Group** from a dropdown list.
 
 ## **Types of Scheduled Messages**
 
-Scheduled messages in FundGen fall into different notification categories, including Instant Notifications, Scheduled Summary Messages, and Timed Notifications. Here are the available types:
+Scheduled messages in FundGen fall into different notification categories, including Instant Notifications, Scheduled Summary Messages, and Timed Notifications. For each of these scheduled message types, you can now select a specific **Target WhatsApp Group** where the message will be delivered, allowing for highly targeted communication. Here are the available types:
 
-*   **Donation Trigger:** Sends an automatic appreciation message to a dedicated WhatsApp group when a donation above a pre-defined minimum is received.
+*   **Donation Trigger:** Sends an automatic appreciation message to a selected WhatsApp group when a donation above a pre-defined minimum is received.
     *   **When configuring this message, you must set:**
         *   Minimum donation amount to trigger the message.
         *   Date range and operating hours for the message.
+    *   **Target WhatsApp Group:** A new selector will appear where you can choose which WhatsApp group receives this specific appreciation message.
 *   **Campaign Milestone:** Sends an update when the campaign reaches a specific fundraising amount or number of donations.
 *   **Hot Streak:** Notifies about a period of high donation activity or a series of quick donations.
 *   **Goal Milestone:** Alerts when a specific fundraising goal or target is achieved.
@@ -71,16 +72,17 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 
 1.  במרכז המסך יש ללחוץ על כפתור **➕ (הוספה)**.
 2.  תיפתח חלונית **“הוסף הודעה מתוזמנת”**.
-3.  בחלונית זו תבחרו את סוג ההודעה המתוזמנת ליצירה.
+3.  בחלונית זו תבחרו את סוג ההודעה המתוזמנת ליצירה ותציינו את **קבוצת הוואטסאפ יעד** שלה מתוך רשימה נפתחת.
 
 ## סוגי הודעות מתוזמנות
 
-הודעות מתוזמנות ב-FundGen נחלקות לקטגוריות התראות שונות, הכוללות התראות מיידיות, הודעות סיכום מתוזמנות והתראות בזמן קבוע. להלן הסוגים הזמינים:
+הודעות מתוזמנות ב-FundGen נחלקות לקטגוריות התראות שונות, הכוללות התראות מיידיות, הודעות סיכום מתוזמנות והתראות בזמן קבוע. עבור כל אחד מסוגי ההודעות המתוזמנות הללו, ניתן כעת לבחור **קבוצת וואטסאפ יעד** ספציפית שאליה תישלח ההודעה, מה שמאפשר תקשורת ממוקדת במיוחד. להלן הסוגים הזמינים:
 
-*   **טריגר תרומה:** שולח הודעת פרגון אוטומטית לקבוצת WhatsApp ייעודית בכל קבלת תרומה מעל סכום מינימלי שהוגדר מראש.
+*   **טריגר תרומה:** שולח הודעת פרגון אוטומטית לקבוצת WhatsApp נבחרת בכל קבלת תרומה מעל סכום מינימלי שהוגדר מראש.
     *   **בהגדרת הודעה זו יש לקבוע:**
         *   סכום תרומה מינימלי להפעלת ההודעה.
         *   טווח תאריכים ושעות לפעילות ההודעה.
+    *   **קבוצת וואטסאפ יעד:** יופיע סלקטור חדש שבו תוכלו לבחור איזו קבוצת וואטסאפ תקבל את הודעת הפרגון הספציפית הזו.
 *   **אבן דרך לקמפיין:** שולח עדכון כאשר הקמפיין מגיע לסכום גיוס ספציפי או למספר תרומות מסוים.
 *   **רצף חם:** מודיע על תקופה של פעילות תרומות גבוהה או סדרת תרומות מהירות.
 *   **אבן דרך ליעד:** מתריע כאשר יעד גיוס כספים ספציפי מושג.
