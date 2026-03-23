@@ -26,7 +26,7 @@ To view the list of donations and donor names, follow these steps:
 
 For each donation (including anonymous ones), you will be able to see:
 
-*   The donation amount.
+*   The donation amount (displayed in the campaign's primary currency, with automatic conversion if the original donation was in a different currency).
 *   The donor's name.
 
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2057038377/4a798794642394a22add65d4d8dc/Screenshot-2B2026-02-11-2Bat-2B22_57_46.png?expires=1773837900&signature=724e2aee222475b57535859df225b8d47e0f9519f2b6b29e3e5e0c5b27df2247&req=diAiEcl9lYJYXvMW1HO4zb8NXdWeMm6Qf63NH%2F4UIoMapSbFa3682Bvjp7Pq%0AIN9M%0A)
@@ -54,5 +54,5 @@ For each donation (including anonymous ones), you will be able to see:
 
 עבור כל תרומה (גם אנונימית), תוכלו לראות:
 
-*   את סכום התרומה.
+*   את סכום התרומה (מוצג במטבע הראשי של הקמפיין, עם המרה אוטומטית אם התרומה המקורית הייתה במטבע אחר).
 *   את שם התורם/ת.

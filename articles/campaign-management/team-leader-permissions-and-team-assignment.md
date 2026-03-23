@@ -35,9 +35,9 @@ To the left of each ambassador in the list, three icons appear:
 - **Admin Permissions:** Click the **figure icon with a plus sign (+)** to grant administrative permissions. *(The button will turn green when the action is complete).*
 - **Team Leader Permissions:** Click the **star icon** to grant Team Leader permissions. *(The button will turn green when the action is complete).*
 
-## **Assigning a Team**
+## Assigning Ambassadors to a Team
 
-Once Team Leader permissions have been granted to the selected ambassadors, you can assign specific ambassadors for them to manage.
+Once Team Leader permissions have been granted to the selected ambassadors, you can assign specific ambassadors for them to manage. This allows team leaders to view and manage the contacts and activities of their assigned team members.
 
 **How to assign ambassadors to a team:**
 
@@ -79,9 +79,9 @@ Once Team Leader permissions have been granted to the selected ambassadors, you 
 - **הרשאת ניהול:** לחיצה על **אייקון דמות עם סימן פלוס (+)** מעניקה לשגריר הרשאות ניהול. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 - **הרשאת ראש צוות:** לחיצה על **אייקון כוכב** מעניקה לשגריר הרשאת ראש צוות. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 
-## שיוך צוות
+## שיוך שגרירים לצוות
 
-לאחר שניתנה הרשאת ראש צוות לשגרירים הרצויים, ניתן לשייך לכל ראש צוות שגרירים ספציפיים שהוא יהיה אחראי עליהם.
+לאחר שניתנה הרשאת ראש צוות לשגרירים הרצויים, ניתן לשייך לכל ראש צוות שגרירים ספציפיים שהוא יהיה אחראי עליהם. פעולה זו מאפשרת לראשי צוותים לצפות ולנהל את אנשי הקשר והפעילויות של חברי הצוות ששויכו אליהם.
 
 **כיצד לשייך שגרירים לצוות:**
 
