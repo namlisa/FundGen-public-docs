@@ -3,7 +3,7 @@
 Called by the AI doc updater workflow.
 1. Fetches PR title + description from the app repo (namlisa/namlisa_app)
 2. Reads all article markdown files
-3. Asks Gemini Flash which articles need updating AND which new articles to create
+3. Asks Gemini Pro which articles need updating AND which new articles to create
 4. Applies the changes to the markdown files
 """
 
@@ -44,7 +44,7 @@ def read_all_articles():
 
 def ask_gemini(pr_context, articles):
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-pro")
 
     full_articles = '\n\n'.join([
         f"=== {path} ===\n{content}"
@@ -71,6 +71,13 @@ Current help center articles (paths + full content):
 ---
 
 ## RULES
+
+### CRITICAL — accuracy over coverage:
+- ONLY update or create documentation for features explicitly described in the PR title and description above. Do NOT infer, guess, or extrapolate features beyond what is stated.
+- If the PR title/description describes a backend-only change (infrastructure, CI, refactoring, performance fixes, bug fixes with no behavior change), return an empty changes array. When in doubt, do nothing.
+- NEVER invent UI elements, buttons, screens, menu items, or workflows that aren't explicitly mentioned in the PR description. If the description doesn't say a button exists, don't document one.
+- NEVER add features to unrelated articles. If the PR is about WhatsApp, don't touch donation or permission articles unless the PR description explicitly connects them.
+- Doing nothing is always better than hallucinating. Most PRs will NOT need doc updates.
 
 ### For EXISTING articles:
 - Update any article that is now outdated, incomplete, or missing steps due to the PR changes
