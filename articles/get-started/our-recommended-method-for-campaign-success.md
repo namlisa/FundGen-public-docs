@@ -21,19 +21,24 @@ Use the "Ignore" option to remove from view what disturbs your focus. A clean li
 
 ## Step 2: Use the Key Tools - Take Action
 
-The work is performed mainly through two tools:
+The work is performed mainly through three powerful tools:
 
 ### Call
-
 The most personal and effective way. A call creates connection and commitment.
 
 ### WhatsApp Message
+Fast, efficient, with a personal link for tracking. Leverage **AI Suggested Messages** to quickly craft personalized and impactful messages, or use ready-made templates to save time.
 
-Fast, efficient, with a personal link for tracking. You can use ready-made templates and save time. The principle is simple: Do not wait for the perfect moment. Start acting.
+### Tap to Pay
+For in-person interactions, accept contactless donations directly through the app using your phone. This provides instant processing and seamless tracking.
+
+The principle is simple: Do not wait for the perfect moment. Start acting.
 
 ## Step 3: Every Contact Must Have a Status
 
-This is a critical step. Every contact you approached needs to be assigned a clear status:
+This is a critical step.
+
+Every contact you approached needs to be assigned a clear status:
 
 - Contacted
 - No reply to contact
@@ -42,7 +47,13 @@ This is a critical step. Every contact you approached needs to be assigned a cle
 - Contact later
 - Not interested
 
-Some actions update automatically – But if something was not updated, it is important to update manually. Why is this important? Because after hours of calls and messages – You must know exactly where you stand. Without organized statuses – everything gets mixed up.
+Some actions update automatically – But if something was not updated, it is important to update manually.
+
+Why is this important?
+
+Because after hours of calls and messages – You must know exactly where you stand.
+
+Without organized statuses – everything gets mixed up.
 
 ## Step 4: Follow-up - This is Where Donations are Closed
 
@@ -50,15 +61,27 @@ Some actions update automatically – But if something was not updated, it is im
 - Those who asked you to return to them
 - Those who promised to donate
 
-Get back to them. Do not leave people hanging. Do not rely on memory. If needed – set a reminder. Most donations are closed in follow-up, not in the first approach.
+Get back to them.
+
+Do not leave people hanging.
+Do not rely on memory.
+
+If needed – set a reminder.
+
+Most donations are closed in follow-up, not in the first approach.
 
 Finished the Entire List? Well Done
 
-You worked hard. You called. You sent messages. You documented. You followed up. Excellent. Now it is time to expand.
+You worked hard. You called. You sent messages. You documented. You followed up.
+Excellent.
 
-Enter Potential Donors: At the top of the screen, you will see a globe icon. If your campaign manager uploaded hundreds or thousands of contacts there – You can import them and continue working. Thus, after you have finished your local database, You expand the circle of donors and increase the potential for success.
+Now it is time to expand.
 
-Our Method
+Enter Potential Donors: At the top of the screen, you will see a globe icon. If your campaign manager uploaded hundreds or thousands of contacts there – You can import them and continue working.
+
+Thus, after you have finished your local database, You expand the circle of donors and increase the potential for success.
+
+## Our Method
 
 ## Cleaning > Action > Documentation > Follow-up > Expanding Donation Circles
 
@@ -88,17 +111,18 @@ Our Method
 
 ## שלב 2: להשתמש בכלים המרכזיים – לפעול
 
-העבודה מתבצעת בעיקר דרך שני כלים:
+העבודה מתבצעת בעיקר דרך שלושה כלים עוצמתיים:
 
 ### שיחה
-
 הדרך האישית והאפקטיבית ביותר.
 שיחה יוצרת חיבור ומחויבות.
 
 ### הודעת WhatsApp
-
 מהירה, יעילה, עם קישור אישי למעקב.
-אפשר להשתמש בתבניות מוכנות ולחסוך זמן.
+השתמשו ב**הצעות הודעות מבוססות AI** כדי ליצור במהירות הודעות מותאמות אישית ובעלות השפעה, או בתבניות מוכנות כדי לחסוך זמן.
+
+### הקש לתשלום (Tap to Pay)
+עבור אינטראקציות פנים אל פנים, קבלו תרומות ללא מגע ישירות דרך האפליקציה באמצעות הטלפון שלכם. זה מספק עיבוד מיידי ומעקב חלק.
 
 העיקרון פשוט:
 לא מחכים לרגע המושלם. מתחילים לפעול.
