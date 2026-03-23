@@ -14,12 +14,38 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.DOCS_BOT_TOKEN }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - run: pip install requests google-generativeai
+
+      - name: Find or create docs branch
+        id: branch
+        env:
+          GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
+        run: |
+          # Check if there's an open docs PR already
+          OPEN_PR=$(gh pr list --state open --label "auto-docs" --json number,headRefName --jq '.[0]' 2>/dev/null || echo "")
+
+          if [ -n "$OPEN_PR" ] && [ "$OPEN_PR" != "null" ]; then
+            BRANCH=$(echo "$OPEN_PR" | jq -r '.headRefName')
+            PR_NUM=$(echo "$OPEN_PR" | jq -r '.number')
+            echo "Found existing docs PR #$PR_NUM on branch $BRANCH"
+            git checkout "$BRANCH"
+            git pull origin "$BRANCH"
+            echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+            echo "existing_pr=$PR_NUM" >> "$GITHUB_OUTPUT"
+          else
+            BRANCH="docs/auto-update"
+            echo "No open docs PR found, creating branch $BRANCH"
+            git checkout -b "$BRANCH" 2>/dev/null || git checkout "$BRANCH"
+            git reset --hard origin/main
+            echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+            echo "existing_pr=" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Generate doc updates from PR
         env:
@@ -30,15 +56,61 @@ jobs:
         run: python scripts/ai_doc_updater.py
 
       - name: Commit and push if changes
+        id: commit
+        env:
+          GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
         run: |
           git config user.name "docs-bot"
           git config user.email "docs-bot@fundgen.ai"
-          git checkout -b "doc-update/pr-${{ inputs.pr_number }}" 2>/dev/null || true
           git add articles/
-          git diff --staged --quiet || git commit -m "docs: update from app PR #${{ inputs.pr_number }}"
-          git push origin HEAD --force
-          gh pr create --title "docs: update from app PR #${{ inputs.pr_number }}" \
-            --body "Auto-generated doc updates based on [app PR #${{ inputs.pr_number }}](https://github.com/namlisa/namlisa_app/pull/${{ inputs.pr_number }})." \
-            --base main 2>/dev/null || echo "PR already exists"
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+
+          # Build commit message from Gemini's summary
+          if [ -f .commit-summary.txt ]; then
+            SUMMARY=$(cat .commit-summary.txt)
+            rm -f .commit-summary.txt
+          else
+            SUMMARY="Documentation updates triggered by app changes."
+          fi
+
+          git commit -m "docs: update from app PR #${{ inputs.pr_number }}
+
+          $SUMMARY
+
+          Triggered by: https://github.com/namlisa/namlisa_app/pull/${{ inputs.pr_number }}"
+
+          git push origin HEAD
+
+      - name: Create or update PR
+        if: steps.commit.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.DOCS_BOT_TOKEN }}
+          BRANCH: ${{ steps.branch.outputs.branch }}
+          EXISTING_PR: ${{ steps.branch.outputs.existing_pr }}
+        run: |
+          if [ -n "$EXISTING_PR" ]; then
+            # Add a comment to the existing PR noting the new commit
+            gh pr comment "$EXISTING_PR" --body "Added doc updates from [app PR #${{ inputs.pr_number }}](https://github.com/namlisa/namlisa_app/pull/${{ inputs.pr_number }})."
+            echo "Updated existing PR #$EXISTING_PR"
+          else
+            gh pr create \
+              --title "docs: auto-generated documentation updates" \
+              --label "auto-docs" \
+              --body "$(cat <<'PREOF'
+          ## Auto-generated documentation updates
+
+          This PR collects documentation changes triggered by app PRs. Each commit corresponds to one app PR — see commit messages for details.
+
+          Review the changes and merge when ready. New app PRs will add commits to this PR until it's merged.
+          PREOF
+              )" \
+              --base main
+            echo "Created new docs PR"
+          fi

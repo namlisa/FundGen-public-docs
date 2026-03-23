@@ -107,27 +107,33 @@ Current help center articles (paths + full content):
 
 ---
 
-Respond with a JSON array. Each element:
+Respond with a JSON object with two keys:
 {{
-  "file": "articles/folder/filename.md",
-  "is_new": true,
-  "reason": "one-line explanation of why this article is being created or updated",
-  "updated_content": "the complete file content including frontmatter"
+  "summary": "A 3-5 line summary for the commit message explaining WHAT documentation changed and WHY (based on the app PR). First line: what the app PR does. Remaining lines: what doc changes were made and the reasoning. Written for a human reviewer.",
+  "changes": [
+    {{
+      "file": "articles/folder/filename.md",
+      "is_new": true,
+      "reason": "one-line explanation of why this article is being created or updated",
+      "updated_content": "the complete file content including frontmatter"
+    }}
+  ]
 }}
 
 Set `"is_new": false` for updates to existing articles, `"is_new": true` for brand-new articles.
 
-Return only the JSON array, no other text.
+Return only the JSON object, no other text.
 """
 
     response = model.generate_content(prompt)
     text = response.text.strip()
 
-    # Extract JSON array from response
-    m = re.search(r'\[.*\]', text, re.DOTALL)
+    # Extract JSON object from response
+    m = re.search(r'\{.*\}', text, re.DOTALL)
     if not m:
-        return []
-    return json.loads(m.group(0))
+        return '', []
+    result = json.loads(m.group(0))
+    return result.get('summary', ''), result.get('changes', [])
 
 def apply_changes(changes):
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -157,13 +163,21 @@ def main():
     articles = read_all_articles()
     print(f"  Articles: {len(articles)} files")
 
-    changes = ask_gemini(pr_context, articles)
+    summary, changes = ask_gemini(pr_context, articles)
     new_count = sum(1 for c in changes if c.get('is_new'))
     update_count = len(changes) - new_count
     print(f"  Gemini suggests {update_count} updates, {new_count} new articles")
 
     if changes:
         apply_changes(changes)
+        # Write summary for the workflow to use in the commit message
+        summary_path = os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            '.commit-summary.txt'
+        )
+        with open(summary_path, 'w') as f:
+            f.write(summary)
+        print(f"  Commit summary written to .commit-summary.txt")
         print("Done — changes applied.")
     else:
         print("Done — no changes needed.")
