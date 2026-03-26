@@ -56,7 +56,9 @@ After selecting a specific bot profile, click on its **'Connect Bot to WhatsApp'
 
 **Option A: Working from a Computer**
 
+
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070081913/755631c1b0ba3c8c5440166a8030/image.png?expires=1773837900&signature=bb857e06315edb867de5ffd7a7c5ceea0d9d1a3db41486b31af3607a6d2fa6fc&req=diAgFsl2nIheWvMW1HO4zSu7QdJ0ItkS5XMdSXTe%2BfbIQfmLd9UOvmoRjlbD%0ABiqR%0A)
+
 
 1. Scan the **QR code** using your mobile phone (via WhatsApp > Linked Devices).
 2. The connection will be established automatically.
@@ -119,7 +121,9 @@ The **Scheduled Summary Messages** section allows you to configure various autom
 
 For more detailed configuration of individual scheduled messages, see [Scheduled Messages](/articles/campaign-management/scheduled-messages.md).
 
+
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2070089827/412a96a2e8c4a2f5185d60847bf9/image.png?expires=1773837900&signature=321fdddd688cca64c9647c4c73f624c245b097bd16375f4b518d17199eb7d936&req=diAgFsl2lIldXvMW1HO4zX3zd01Bu5vAk8q4%2Bnv%2Be4dFg4E3pSgg8ei%2FMhb9%0A5LC7%0A)
+
 
 ---
 
@@ -177,7 +181,9 @@ For more detailed configuration of individual scheduled messages, see [Scheduled
 
 לאחר בחירת פרופיל בוט ספציפי, לחצו על הטאב - 'חיבור בוט לווצאפ' ויופיע המסך הבא:
 
+
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069749762/3a4bd10b1763d334e3e514834cb9/image.png?expires=1773837900&signature=7e1e6c6ffdae27f1eb411369ebfe269694be6c6fd2e4451c85ff533ee11546ea&req=diAhH856lIZZW%2FMW1HO4zZD2ZrXXmfvPf%2B7QpQ4AZO%2FutLyPC2%2FVzddH5sfk%0A7SDc%0A)
+
 
 ## אם עובדים מהמחשב:
 
@@ -240,4 +246,6 @@ For more detailed configuration of individual scheduled messages, see [Scheduled
 
 להגדרות מפורטות יותר של הודעות מתוזמנות בודדות, עיינו במאמר [הודעות מתוזמנות](/articles/campaign-management/scheduled-messages.md).
 
+
 ![image](https://downloads.intercomcdn.com/i/o/entwkecd/2069739563/e2b342357015034f820a390a41c9/image.png?expires=1773837900&signature=6d3532d6b5433e8c79bbffb6e4569428110b0ffcea2afa13b2565c9c0462089a&req=diAhH859lIRZWvMW1HO4zWDZS%2BBQHPakGw14BEICrA0aSY0mKjmDGFrDvi4M%0AyG50%0A)
+

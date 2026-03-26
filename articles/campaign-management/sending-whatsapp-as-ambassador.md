@@ -1,6 +1,5 @@
-```markdown
----
-intercom_article_id: "14286239"
+--- 
+intercom_article_id: ""
 title_en: "Sending WhatsApp Messages as an Ambassador (Admin Feature)"
 title_he: "שליחת הודעות וואטסאפ בשם שגריר (תכונת מנהל)"
 state: "published"
@@ -20,7 +19,7 @@ Campaign administrators can now send personalized WhatsApp messages to contacts 
 ## Prerequisites
 
 *   You must be logged in as a user with **Admin Permissions**.
-*   The target ambassador's personal WhatsApp account must be connected to the campaign bot. Refer to [Connecting Ambassador WhatsApp Accounts to the Campaign Bot](articles/campaign-management/connecting-and-configuring-the-campaign-bot.md) for instructions.
+*   The target ambassador's personal WhatsApp account must be connected to the campaign bot. Refer to [Connecting and Configuring a WhatsApp Bot Profile](articles/campaign-management/connecting-and-configuring-the-campaign-bot.md) for instructions.
 *   The contact you wish to message must be assigned to the ambassador.
 
 ## Steps to Send a WhatsApp Message on Behalf of an Ambassador
@@ -33,7 +32,7 @@ Campaign administrators can now send personalized WhatsApp messages to contacts 
     *   From the menu, select the **Manage Ambassadors** tab.
 
 3.  **Select the Ambassador:**
-    *   Find the ambassador whose behalf you want to send the message from.
+    *   Find the ambassador on whose behalf you want to send the message.
     *   Click on their profile to view their details.
 
 4.  **Access the "Send WhatsApp Message" Feature:**
@@ -75,7 +74,7 @@ Campaign administrators can now send personalized WhatsApp messages to contacts 
 ## תנאים מקדימים
 
 *   עליך להיות מחובר עם **משתמש בעל הרשאת ניהול**.
-*   חשבון הוואטסאפ האישי של השגריר המיועד חייב להיות מחובר לבוט הקמפיין. עיין ב[חיבור חשבונות וואטסאפ של שגרירים לבוט הקמפיין](articles/campaign-management/connecting-and-configuring-the-campaign-bot.md) להוראות.
+*   חשבון הוואטסאפ האישי של השגריר המיועד חייב להיות מחובר לבוט הקמפיין. עיין ב[חיבור והגדרת פרופיל בוט לוואטסאפ](articles/campaign-management/connecting-and-configuring-the-campaign-bot.md) להוראות.
 *   איש הקשר שאליו ברצונך לשלוח הודעה חייב להיות משויך לשגריר.
 
 ## שלבים לשליחת הודעת וואטסאפ בשם שגריר
@@ -116,4 +115,3 @@ Campaign administrators can now send personalized WhatsApp messages to contacts 
 *   **התאמה אישית:** למרות שנשלחה על ידי מנהל מערכת, ההודעה נראית כאילו הגיעה ישירות מהשגריר, ושומרת על נגיעה אישית עם התורם.
 *   **תאימות:** תכונה זו ממנפת את חיבור בוט הוואטסאפ הקיים, ומבטיחה שהודעות נשלחות בהתאם למדיניות וואטסאפ באמצעות חשבונות אישיים מחוברים.
 *   **רישום פעילות:** כל ההודעות הנשלחות בדרך זו נרשמות כפעילות של השגריר, ותורמות לסטטיסטיקות הקמפיין הכוללות שלו ולנקודות ה-XP, מה שמבטיח דיווח מדויק.
-```
