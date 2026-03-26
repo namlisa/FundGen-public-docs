@@ -86,7 +86,7 @@ jobs:
 
           Triggered by: https://github.com/namlisa/namlisa_app/pull/${{ inputs.pr_number }}"
 
-          git push origin HEAD
+          git push --force-with-lease origin HEAD
 
       - name: Create or update PR
         if: steps.commit.outputs.has_changes == 'true'
