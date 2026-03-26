@@ -27,9 +27,20 @@ def fetch_pr_context():
         headers=GH_HEADERS,
     ).json()
 
+    # Fetch the actual diff to give Gemini real data instead of just title/description
+    diff_resp = requests.get(
+        f"https://api.github.com/repos/{APP_REPO}/pulls/{PR_NUMBER}",
+        headers={**GH_HEADERS, "Accept": "application/vnd.github.diff"},
+    )
+    diff_text = diff_resp.text if diff_resp.status_code == 200 else ''
+    # Truncate very large diffs to avoid exceeding token limits
+    if len(diff_text) > 30000:
+        diff_text = diff_text[:30000] + '\n\n... (diff truncated at 30KB) ...'
+
     return {
         'title': pr.get('title', ''),
         'body': pr.get('body', '') or '',
+        'diff': diff_text,
     }
 
 def read_all_articles():
@@ -65,6 +76,9 @@ PR Title: {pr_context['title']}
 PR Description:
 {pr_context['body']}
 
+Actual code diff (this is the ground truth of what changed):
+{pr_context['diff']}
+
 Current help center articles (paths + full content):
 {full_articles}
 
@@ -73,11 +87,12 @@ Current help center articles (paths + full content):
 ## RULES
 
 ### CRITICAL — accuracy over coverage:
-- ONLY update or create documentation for features explicitly described in the PR title and description above. Do NOT infer, guess, or extrapolate features beyond what is stated.
+- ONLY update or create documentation for features explicitly described in the PR title, description, and code diff above. Do NOT infer, guess, or extrapolate features beyond what is stated.
+- The code diff is the GROUND TRUTH. If the diff shows a minor bug fix (e.g., fixing a URL parameter, null check, formatting), return an empty changes array. Do NOT invent new features or roles that don't appear in the diff.
 - If the PR title/description describes a backend-only change (infrastructure, CI, refactoring, performance fixes, bug fixes with no behavior change), return an empty changes array. When in doubt, do nothing.
-- NEVER invent UI elements, buttons, screens, menu items, or workflows that aren't explicitly mentioned in the PR description. If the description doesn't say a button exists, don't document one.
+- NEVER invent UI elements, buttons, screens, menu items, roles, permissions, or workflows that aren't explicitly shown in the code diff. If the diff doesn't add a new role, don't document one.
 - NEVER add features to unrelated articles. If the PR is about WhatsApp, don't touch donation or permission articles unless the PR description explicitly connects them.
-- Doing nothing is always better than hallucinating. Most PRs will NOT need doc updates.
+- Doing nothing is always better than hallucinating. Most PRs will NOT need doc updates. Bug fix PRs almost NEVER need doc updates.
 
 ### For EXISTING articles:
 - Update any article that is now outdated, incomplete, or missing steps due to the PR changes
