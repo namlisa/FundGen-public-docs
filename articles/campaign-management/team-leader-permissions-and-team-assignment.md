@@ -31,9 +31,10 @@ Access the FundGen admin interface via computer or mobile: [https://admin.giving
 - Scroll down slightly. The page displays the list of campaign ambassadors, including all participants who have set a campaign goal.
 
 **3. Granting Permissions**
-To the left of each ambassador in the list, three icons appear:
-- **Admin Permissions:** Click the **figure icon with a plus sign (+)** to grant administrative permissions. *(The button will turn green when the action is complete).*
+To the left of each ambassador in the list, icons appear for granting specific roles:
+- **Admin Permissions:** Click the **figure icon with a plus sign (+)** to grant administrative permissions. *(The button will turn green when the action is complete).* 
 - **Team Leader Permissions:** Click the **star icon** to grant Team Leader permissions. *(The button will turn green when the action is complete).*
+- **Donation Manager Permissions:** Click the **dollar sign icon ($)** to grant permissions to view, edit, and refund donations. *(The button will turn green when the action is complete).*
 
 ## Assigning Ambassadors to a Team
 
@@ -75,9 +76,10 @@ Once Team Leader permissions have been granted to the selected ambassadors, you 
 - בעמוד שייפתח, גללו מעט למטה. תוצג רשימת השגרירים של הקמפיין, הכוללת את כלל המשתתפים שלקחו יעד בקמפיין.
 
 **3. מתן הרשאות**
-בצד שמאל של כל שגריר ברשימה מופיעים שלושה אייקונים:
+בצד שמאל של כל שגריר ברשימה מופיעים אייקונים למתן תפקידים ספציפיים:
 - **הרשאת ניהול:** לחיצה על **אייקון דמות עם סימן פלוס (+)** מעניקה לשגריר הרשאות ניהול. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 - **הרשאת ראש צוות:** לחיצה על **אייקון כוכב** מעניקה לשגריר הרשאת ראש צוות. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
+- **הרשאת מנהל תרומות:** לחיצה על **אייקון דולר ($)** מעניקה הרשאות לצפות, לערוך ולהחזיר תרומות. *(לאחר שהכפתור נצבע בירוק, הפעולה בוצעה).*
 
 ## שיוך שגרירים לצוות
 
