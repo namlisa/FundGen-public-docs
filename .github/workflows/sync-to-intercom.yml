@@ -34,3 +34,12 @@ jobs:
               [ -f "$f" ] && python scripts/sync.py --file "$f"
             done
           fi
+
+      - name: Commit new article IDs back to repo
+        run: |
+          git diff --quiet articles/ && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles/
+          git commit -m "chore: update intercom_article_id for newly created articles"
+          git push
