@@ -1,5 +1,5 @@
 --- 
-intercom_article_id: ""
+intercom_article_id: "14286231"
 title_en: "Deactivating and Reactivating Ambassadors"
 title_he: "השבתה והפעלה מחדש של שגרירים"
 state: "published"

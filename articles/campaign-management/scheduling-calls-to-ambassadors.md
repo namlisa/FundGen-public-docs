@@ -1,5 +1,5 @@
 ---
-intercom_article_id: ""
+intercom_article_id: "14286238"
 title_en: "Scheduling Calls to Ambassadors"
 title_he: "תזמון שיחות לשגרירים"
 state: "published"

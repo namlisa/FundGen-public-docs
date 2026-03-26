@@ -1,5 +1,5 @@
 ---
-intercom_article_id: ""
+intercom_article_id: "14286234"
 title_en: "Managing WhatsApp Bot Profiles"
 title_he: "ניהול פרופילי בוט לוואטסאפ"
 state: "published"

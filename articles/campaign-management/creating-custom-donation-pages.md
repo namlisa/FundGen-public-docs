@@ -1,5 +1,5 @@
 --- 
-intercom_article_id: ""
+intercom_article_id: "14286228"
 title_en: "Creating Custom Donation Pages"
 title_he: "יצירת דפי תרומה מותאמים אישית"
 state: "published"

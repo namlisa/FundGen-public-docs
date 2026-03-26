@@ -1,5 +1,5 @@
 --- 
-intercom_article_id: ""
+intercom_article_id: "14286218"
 title_en: "Configuring Multi-Currency Donations"
 title_he: "הגדרת תרומות בריבוי מטבעות"
 state: "published"

@@ -1,5 +1,5 @@
 ---
-intercom_article_id: ""
+intercom_article_id: "14286244"
 title_en: "Using Deep Dive Search (AI Contact Insights)"
 title_he: "שימוש בחיפוש מעמיק (תובנות AI לאנשי קשר)"
 state: "published"

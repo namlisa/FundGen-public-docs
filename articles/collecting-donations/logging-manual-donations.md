@@ -1,5 +1,5 @@
 ---
-intercom_article_id: ""
+intercom_article_id: "14286241"
 title_en: "Logging Manual Donations (for Ambassadors)"
 title_he: "תיעוד תרומות ידניות (לשגרירים)"
 state: "published"

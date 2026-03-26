@@ -1,5 +1,5 @@
 --- 
-intercom_article_id: ""
+intercom_article_id: "14286217"
 title_en: "Assigning Contacts to Ambassadors"
 title_he: "שיוך אנשי קשר לשגרירים"
 state: "published"
