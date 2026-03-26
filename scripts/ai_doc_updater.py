@@ -139,7 +139,7 @@ Return only the JSON object, no other text.
     m = re.search(r'\{.*\}', text, re.DOTALL)
     if not m:
         return '', []
-    result = json.loads(m.group(0))
+    result = json.loads(m.group(0), strict=False)
     return result.get('summary', ''), result.get('changes', [])
 
 def apply_changes(changes):
