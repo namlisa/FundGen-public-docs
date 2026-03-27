@@ -1,4 +1,4 @@
---- 
+---
 intercom_article_id: ""
 title_en: "Sending WhatsApp Messages as an Ambassador (Admin Feature)"
 title_he: "שליחת הודעות וואטסאפ בשם שגריר (תכונת מנהל)"
