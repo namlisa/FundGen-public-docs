@@ -44,7 +44,6 @@ This feature works by sending a pre-configured WhatsApp message to the designate
     *   **Target Audience:** Choose who will receive this call reminder:
         *   **All Ambassadors:** Sends the reminder to every active ambassador in the campaign.
         *   **Specific Teams:** Sends to all ambassadors belonging to selected teams.
-        *   **Specific Ambassadors:** Allows you to manually select individual ambassadors.
     *   **Schedule:** Define when the reminder should be sent:
         *   **Date and Time:** Set a specific date and time for a one-time reminder.
         *   **Recurrence:** Configure the message to repeat daily, weekly, or on specific days of the week.
@@ -97,7 +96,6 @@ When a Scheduled Call reminder is active, ambassadors will receive a WhatsApp me
     *   **קהל יעד:** בחר מי יקבל תזכורת שיחה זו:
         *   **כל השגרירים:** שולח את התזכורת לכל שגריר פעיל בקמפיין.
         *   **צוותים ספציפיים:** שולח לכל השגרירים השייכים לצוותים שנבחרו.
-        *   **שגרירים ספציפיים:** מאפשר לבחור ידנית שגרירים בודדים.
     *   **תזמון:** הגדר מתי יש לשלוח את התזכורת:
         *   **תאריך ושעה:** קבע תאריך ושעה ספציפיים לתזכורת חד-פעמית.
         *   **חזרה:** הגדר את ההודעה לחזור על בסיס יומי, שבועי, או בימים ספציפיים בשבוע.

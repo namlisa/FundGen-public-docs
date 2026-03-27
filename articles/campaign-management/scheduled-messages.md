@@ -31,11 +31,16 @@ With the ability to manage multiple WhatsApp Bot Profiles, the configuration of 
 3.  Within the bot profile's settings, you will find options to add and edit scheduled messages.
 4.  In the center of the bot profile editing screen, you will have the option to click the **➕ (Add)** button to add a new scheduled message for this specific bot.
 5.  The "Add Scheduled Message" window will open.
-6.  In this window, you will choose the type of scheduled message to create for this bot profile, and specify its **Target WhatsApp Group** from a dropdown list.
+6.  In this window, you will configure the message:
+    *   **Message Type:** Choose from a list of predefined types (e.g., 'Donation Trigger'). You can also click **+ Add Custom Message Type** to create a new, reusable message type for your campaign.
+    *   **Target Audience:** Select who will receive the message.
+        *   **All Ambassadors:** Sends the message to every active ambassador.
+        *   **Specific Teams:** Lets you select one or more specific teams to receive the message.
+    *   **Target WhatsApp Group:** Choose the specific WhatsApp group where the message will be delivered from a dropdown list.
 
 ## **Types of Scheduled Messages**
 
-Scheduled messages in FundGen fall into different notification categories, including Instant Notifications, Scheduled Summary Messages, and Timed Notifications. These are configured per WhatsApp Bot Profile. For each message type, you can select a specific **Target WhatsApp Group** where the message will be delivered, allowing for highly targeted communication. Here are the available types:
+Scheduled messages in FundGen fall into different notification categories, including Instant Notifications, Scheduled Summary Messages, and Timed Notifications. In addition to the standard types below, you can create your own **Custom Message Types** to fit the unique needs of your campaign. These are configured per WhatsApp Bot Profile. For each message type, you can select a specific **Target WhatsApp Group** where the message will be delivered, allowing for highly targeted communication. Here are the available types:
 
 *   **Ambassador Welcome Message:** Automatically sends a customizable welcome message to new ambassadors upon their registration, providing onboarding instructions and immediate engagement.
 *   **Scheduled Call (to Ambassadors):** Schedules a WhatsApp message reminder for ambassadors to make an important call.
@@ -93,11 +98,16 @@ Scheduled messages in FundGen fall into different notification categories, inclu
 3.  בתוך הגדרות פרופיל הבוט, תמצאו אפשרויות להוספה ועריכה של הודעות מתוזמנות.
 4.  במרכז מסך עריכת פרופיל הבוט, תהיה אפשרות ללחוץ על כפתור **➕ (הוספה)** כדי להוסיף הודעה מתוזמנת חדשה עבור בוט זה.
 5.  תיפתח חלונית **"הוסף הודעה מתוזמנת"**.
-6.  בחלונית זו תבחרו את סוג ההודעה המתוזמנת ליצירה עבור פרופיל בוט זה, ותציינו את **קבוצת הוואטסאפ יעד** שלה מתוך רשימה נפתחת.
+6.  בחלונית זו תגדירו את ההודעה:
+    *   **סוג ההודעה:** בחרו מתוך רשימת סוגים מוגדרים מראש (לדוגמה, 'טריגר תרומה'). ניתן גם ללחוץ על **+ הוסף סוג הודעה מותאם אישית** כדי ליצור סוג הודעה חדש לשימוש חוזר בקמפיין שלכם.
+    *   **קהל יעד:** בחרו מי יקבל את ההודעה.
+        *   **כל השגרירים:** שולח את ההודעה לכל שגריר פעיל.
+        *   **צוותים ספציפיים:** מאפשר לבחור צוות אחד או יותר לקבלת ההודעה.
+    *   **קבוצת וואטסאפ יעד:** בחרו את קבוצת הוואטסאפ הספציפית שאליה תישלח ההודעה מתוך רשימה נפתחת.
 
 ## סוגי הודעות מתוזמנות
 
-הודעות מתוזמנות ב-FundGen נחלקות לקטגוריות התראות שונות, הכוללות התראות מיידיות, הודעות סיכום מתוזמנות והתראות בזמן קבוע. אלו מוגדרות עבור כל פרופיל בוט לוואטסאפ. עבור כל אחד מסוגי ההודעות, ניתן לבחור **קבוצת וואטסאפ יעד** ספציפית שאליה תישלח ההודעה, מה שמאפשר תקשורת ממוקדת במיוחד. להלן הסוגים הזמינים:
+הודעות מתוזמנות ב-FundGen נחלקות לקטגוריות התראות שונות. בנוסף לסוגים הסטנדרטיים להלן, באפשרותכם ליצור **סוגי הודעות מותאמים אישית** משלכם כדי להתאים לצרכים הייחודיים של הקמפיין. אלו מוגדרות עבור כל פרופיל בוט לוואטסאפ. עבור כל אחד מסוגי ההודעות, ניתן לבחור **קבוצת וואטסאפ יעד** ספציפית שאליה תישלח ההודעה, מה שמאפשר תקשורת ממוקדת במיוחד. להלן הסוגים הזמינים:
 
 *   **הודעת ברוכים הבאים לשגריר:** שולח אוטומטית הודעת ברוכים הבאים ניתנת להתאמה לשגרירים חדשים עם רישומם, מספקת הוראות הצטרפות ומעורבות מיידית.
 *   **שיחה מתוזמנת (לשגרירים):** מתזמן תזכורת בוואטסאפ לשגרירים לבצע שיחה חשובה.

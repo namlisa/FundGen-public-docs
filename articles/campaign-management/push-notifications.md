@@ -34,7 +34,7 @@ collection_he: "ניהול הקמפיין"
 When creating a push message, you can select the target audience:
 
 - **Send to All Ambassadors** – The message will be sent to all campaign ambassadors.
-- **Send to Specific Ambassadors** – You can select specific ambassadors to receive the message.
+- **Send to Specific Teams** – You can select one or more specific teams to receive the message.
 
 ---
 
@@ -72,4 +72,4 @@ When creating a push message, you can select the target audience:
 בעת יצירת הודעת ה-Push ניתן לבחור את קהל היעד לשליחה:
 
 - **שליחה לכל השגרירים** – ההודעה תישלח לכלל השגרירים בקמפיין.
-- **שליחה לשגרירים ספציפיים** – ניתן לבחור שגרירים מסוימים בלבד ולשלוח אליהם את ההודעה.
+- **שליחה לצוותים ספציפיים** – ניתן לבחור צוות אחד או יותר ולשלוח את ההודעה רק לשגרירים המשויכים אליהם.
